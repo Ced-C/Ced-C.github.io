@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Ventes | Mars 2024</title>
+		<title>Kalamine : Créer la disposition clavier de vos rêves en un claquement de doigt</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -29,40 +29,31 @@
                             <br>
 
                             #### **Créer la disposition clavier de vos rêves en un claquement de doigt**
-                            
+
                             <br>
                             <img src="img/chanseaulme.png" alt="profile picture" height="100em">
                             <br>
 
-                            👥 **Cédric CORRÈGE** 
+                            👥 **Cèd’C** 
                             <span style="color:var(--r-italic-color)">|</span>
-                            📅 **2024-11-16**
+                            📅 **2024-11-16 CdL**
 
                             <!-- <img src="img/hack.png" alt="profile picture" height="100em"> -->
 
                             ---
                             Plan
                             ------------
-                            1. Notions d’Eregonomie
+                            1. Notions d’Ergonomie
                             2. Introduction à Kalamine / créer sa disposition
-                            3. Hands-on
+                            3. ~~Hands-on~~ venez sur le stand Ergodis
 
                         </textarea>
                     </section>
 				</section>
 
-				<!-- MOIS PRÉCÉDENT -->
 				<section>
 					<section data-markdown>
 						<textarea data-template>
-                            Taper à 10 doigts ?
-                            ------------------------------
-                            Taper à ~~10~~ 9 doigts (même en Azerty) est le plus gros gain d’ergonomie possible
-                            
-                            <p class="fragment fade-in" ><img src="./img/1vs10_fingers.jpeg" height="400em" alt="Même : on voit un clavier avec quel doit est assigné à quel touche en dactylo ; puis, moi qui ai _un seul_ doigt assigné à toutes les touches"></p>
-                            
-
-                            ---
                             XP Personelle
                             -----------------------
                             Ma route ergonomique :
@@ -74,6 +65,15 @@
                             - **2023** : _Bépolar_ (Création & Utilisation)
                             - **2023** (late) : _Arsenik_-like
                             - **2024** : Ergo‑L + _Variante A_ (angle-mod)
+                                - membre d’Ergodis
+
+                            ---
+                            Taper à 10 doigts ?
+                            ------------------------------
+                            Taper à ~~10~~ 9 doigts (même en Azerty) est le plus gros gain de confort possible (si on ne se blesse pas).
+                            
+                            <p class="fragment fade-in" ><img src="./img/1vs10_fingers.jpeg" height="400em" alt="Même : on voit un clavier avec quel doit est assigné à quel touche en dactylo ; puis, moi qui ai _un seul_ doigt assigné à toutes les touches"></p>
+                            
 
                             ---
                             L’ergonomie Clavier
@@ -103,20 +103,22 @@
                             ----------------------------------
                             **Confort _sans_ blessure**
                             1. La posture
-                            2. Le clavier ([Clavier split compact bien](https://www.researchgate.net/publication/12913559_Workplace_Use_of_an_Adjustable_Keyboard_Adjustment_Preferences_and_Effect_on_Wrist_Posture))
+                            2. Le clavier 
+                                - La géométrie ([Clavier split compact bien](https://www.researchgate.net/publication/12913559_Workplace_Use_of_an_Adjustable_Keyboard_Adjustment_Preferences_and_Effect_on_Wrist_Posture))
+                                - La Capacité à amener les touches sous les doigts (QMK, [Arsenik]()…)
                             3. La disposition
+                            
                             
                             <p class="fragment fade-in">
                                 <img src="img/troll_like_position.jpeg" alt="un dessin d’une personne se tenant n’importe commet devant son ordinateur">
-                                <br>
                                 <caption>Il utilise Ergo‑L</caption>
                             </p>
                             
                             ---
                             La disposition
                             --------------
-                            _c.f._ Kazé 
-                            <blockquote class="fragment fade-in-then-out">
+                            _c.f._ Kazé conférence CdL2024
+                            <blockquote class="fragment fade-in">
                                 « Arsenik, l’ergonomie clavier libre et gratuite »
                             </blockquote>
                             
@@ -134,9 +136,10 @@
                             </div>
 
                             ---
-                            La voie rapide ?
+                            Devenir Ergonaute
                             -------------------
-                            <img src="img/pillule.jpg" height="" alt="pillule bleu ou rouge ?">
+                            _1DFH_, ou le paradigme _caps-to-fingers_
+                            <img src="img/pillule.jpg" height="400em" alt="pillule bleu ou rouge ?">
 
                             La pillule bleu → [Ergo‑L](https://ergol.org/) 🚀 (fr+en)
 
@@ -148,7 +151,6 @@
 					</section>
 				</section>
 
-				<!-- VENTES -->
 				<section>
 					<section data-markdown>
 						<textarea data-template>
@@ -156,28 +158,24 @@
                             ----------------
                             <i>K</i>eyboard <i>L</i>ayout <i>M</i>aker
 
-                            **But** : Améliorer la science des claviers grâce à l’expérimentation
+                            Générateur de pilote clavier « 3 couches »
 
                             - 💥 **Multi-plateformes** : Création de pilotes = grande friction
-                            - 🧑‍💻 **Pensé pour le plus grand monde** : CLI puis version web en cours
+                            - 🧑‍💻 **Pensé pour le plus grand nombre** : CLI puis version web en cours
                             - 🐍 **Écrit en python** : contribution simplifiée
 
+                            Améliorer la science des claviers grâce à l’expérimentation
 
-                            ---
-                            Ce que kalamine ne fait pas (encore)
-                            -----------------------------------------------------------
-                            - Support des dispositions à 10 doigts : lettre sous un pouce,  changement de <kbd>Alt</kbd>, <kbd>Ctrl</kbd>…
-                            - Support des options proposées pas les clavier programmable : touche magique, caps-word…
-                            - Support de touches mortes personaliées (mise à part <kbd>★</kbd>)
+                            
 
                             ---
                             Par où Commencer ?
                             --------------
                             1. <span class="fragment highlight-red">supprimer les mouvements inconfortables</span>
                             2. <span class="fragment highlight-blue">supprimer le travail des doigts </span>
-                            3. <span class="fragment fade-out">faciliter la productivité</span>
+                            3. <s class="fragment fade-in-then-semi-out">faciliter la productivité</s>
                             
-                            <img src="img/ergol.svg" class="fragment fade-in" alt="ergol keyboard layout, there is no key outside main 30 key">
+                            <img src="img/bepo.svg" class="fragment fade-in" alt="ergol keyboard layout, there is no key outside main 30 key">
 
                             ---
                             Améliorer Bépo pour
@@ -422,13 +420,13 @@
                             ---
                             Bépolar
                             -------
-                            1. écriture « littéraire » via la couche _α_ et _typo_
+                            1. écriture « littéraire » via la couche _α_ et _typo_ <kbd>★</kbd>
                                 - Les lettres → couche α
                                 - Les diacritiques → couche typo
-                                - Les syboles typographique → couche typo
-                            2. placement des lettre pour _favoriser les enchainements confortables_
-                            3. les ponctuations double en couche shift
-                            4. placement de la _touche typo <kbd>★</kbd> sur l’annulaire_ (quand c’est possible)
+                                - Les symboles typographique → couche typo
+                            2. placement des lettres pour _minimiser les enchainement inconfortables_
+                            3. les ponctuations doubles en couche shift !
+                            4. ~~placement de la _touche typo sur l’annulaire_~~
 
                             ---
                             Bépolar
@@ -455,15 +453,53 @@
                             
                             <iframe src="http://localhost:1664/#/bepolar/ol60/en+fr" height="500em" width="1000em"></iframe>
                             
+                            [Glossaire](https://ergol.org/ressources/glossaire)
                             
+                            ---
+                            Génération des pilotes
+                            -----------------------
+                            ```
+                            kalamine build layout.toml
+                            ```
+                            ```bash
+                            tree
+                            .
+                            ├── Bépolar.toml
+                            └── dist
+                                ├── bepolar.ahk         # Windows — user
+                                ├── bepolar.json        # Kalamine / Web
+                                ├── bepolar.keylayout   # MacOS
+                                ├── bepolar.klc         # Windows — root
+                                ├── bepolar.svg
+                                ├── bepolar.xkb_keymap  # Linux
+                                └── bepolar.xkb_symbols # Liunx — custom layout
 
+                            2 directories, 8 files
+
+                            ```     
+                            
                             ---
                             Kalamine vs. QMK
                             ------------------------------
-                            Todo
+                            - Kalamine
+                                - le pilote doit être installé sur chaque ordinateur
+                                - support de tous les caractères
+                                - support de toutes les fonction d’une clavier
+                            - QMK
+                                - pas besoin d’installation, on branche
+                                - caractères limités par le pilote 
+                                    - hack mono-OS possible
+                                - perte de fonctionnalités comme <kbd>CapsLock</kbd>
+
+                            _Long story short_ : Utilisez Kalamine quand c’est possible
 
 						</textarea>				
-					</section>
+                            ---
+                            Ce que Kalamine Ne Fait Pas (Encore)
+                            -----------------------------------------------------------
+                            - Support des dispositions à 10 doigts : lettre sous un pouce,  changement de <kbd>Alt</kbd>, <kbd>Ctrl</kbd>…
+                            - Support des options proposées par les clavier programmable : touche magique, caps-word…
+                            - Support de touches mortes personalisées (mise à part <kbd>★</kbd>)				</section>
 				</section>
 			</div>
 
