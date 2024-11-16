@@ -45,7 +45,11 @@
                             ------------
                             1. Notions d’Ergonomie
                             2. Introduction à Kalamine / créer sa disposition
+                                - faire une adaptation 1DFH de Bépo
                             3. ~~Hands-on~~ venez sur le stand Ergodis
+                            
+                            <img src="img/ergodis_logo.png" height="" alt="Logo d’Ergodis">
+                            <img src="img/bepo_logo.png" height="200em" alt="Logo de Bépo">
 
                         </textarea>
                     </section>
@@ -65,27 +69,25 @@
                             - **2023** : _Bépolar_ (Création & Utilisation)
                             - **2023** (late) : _Arsenik_-like
                             - **2024** : Ergo‑L + _Variante A_ (angle-mod)
-                                - membre d’Ergodis
 
                             ---
                             Taper à 10 doigts ?
                             ------------------------------
-                            Taper à ~~10~~ 9 doigts (même en Azerty) est le plus gros gain de confort possible (si on ne se blesse pas).
+                            <p class="fragment fade-in" >Taper à <s>10</s> 9 doigts (même en Azerty) est le plus gros gain de confort possible (si on ne se blesse pas).</p>
                             
                             <p class="fragment fade-in" ><img src="./img/1vs10_fingers.jpeg" height="400em" alt="Même : on voit un clavier avec quel doit est assigné à quel touche en dactylo ; puis, moi qui ai _un seul_ doigt assigné à toutes les touches"></p>
                             
 
                             ---
-                            L’ergonomie Clavier
+                            Le point Commun ?
                             --------------------------------
-                            qu’ont-il en commun ?
                             <table>
                                 <tr>
                                     <td>
-                                        <img src="img/azerty_user.avif" height="200em" alt="Un bras cassé qui lève le pouce">
+                                        <img src="img/azerty_user.avif" height="300em" alt="Un bras cassé qui lève le pouce">
                                     </td>
                                     <td>
-                                        <img src="img/bepo_user.avif" height="200em" alt="Un jeune  homme qui tient son bras cassé avec peine">
+                                        <img src="img/bepo_user.avif" height="300em" alt="Un jeune  homme qui tient son bras cassé avec peine">
                                     </td>
                                 </tr>
                                 <tr>
@@ -191,7 +193,7 @@
                             <img src="img/bepo.svg" height="" alt="disposition Bépo">
 
                             ```bash
-                            kalamine new layout.toml --altgr --geometry ISO --1dk
+                            kalamine new Bépolar.toml --altgr --geometry ISO --1dk
                             ```
 
                             ---
@@ -459,7 +461,7 @@
                             Génération des pilotes
                             -----------------------
                             ```
-                            kalamine build layout.toml
+                            kalamine build Bépolar.toml
                             ```
                             ```bash
                             tree
@@ -477,6 +479,12 @@
                             2 directories, 8 files
 
                             ```     
+                            ```
+                            xkalamine install Bépolar.toml
+                            ```
+                            ```
+                            wkalamine build Bépolar.toml
+                            ```
                             
                             ---
                             Kalamine vs. QMK
