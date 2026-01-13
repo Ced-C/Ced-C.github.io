@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: goto_directory
+        run: |
+          cd src
+          pwd
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@master
         env:
