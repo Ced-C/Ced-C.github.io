@@ -20,8 +20,13 @@ description = "Un blog sans prétention —tapé avec ♥ sur un clavier"
 render_emoji = true
 external_links_target_blank = true
 smart_punctuation = true
-highlight_code = false
-highlight_theme = "gruvbox-dark"
+
+[markdown.highlighting]
+# When set to "true", missing highlight languages are treated as errors. Defaults to false but recommended to set to true.
+error_on_missing_language = false
+light_theme = "github-light"
+dark_theme = "github-dark"
+
 
 [slugify]
 paths = "on"
