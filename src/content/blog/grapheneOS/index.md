@@ -60,8 +60,9 @@ Une fois installé, on a un petit message à chaque redémarrage indiquant qu'un
 
 
 ## Utilisation
+À l’utilisation, ce n’est pas très différent d’Android. C’est même pratiquement la même chose, à ceci près que l’on dispose d’un peu plus de contrôle sur les autorisations accordées aux applications. Toutes les applications. Même celles de Google, que j’évite.
 
-À l'utilisation, ce n'est pas bien différent d'Android. C’est même radicalement la même chose, sauf qu’on a un peu plus de contrôle sur les autorisations données aux applications. Toutes les applications. Même celles de Google que j’évite.
+L’environnement cloisonné dans lequel on peut installer les services Google est très simple d’accès, et des réglages permettent de définir des règles afin de le désactiver automatiquement. Je m’en sers peu, mais l’expérience est très fluide, bravo pour cette approche.
 
 ### Applications utilisées
 
@@ -141,9 +142,11 @@ Accepter de perdre un peu de confort pour reprendre la main sur un outil aussi c
 
 Reste un paradoxe difficile à avaler : en 2025, les seuls téléphones réellement compatibles sont ceux de Google. Pire, l’installation n’est pas simple. Tant que cela n’évoluera pas, GrapheneOS restera une alternative de niche, réservée aux utilisateurs motivés et aux dealers. J’espère qu’un constructeur proposera un jour des modèles avec l’OS préinstallé, mais cela semble mal engagé pour [Fairphone][fairphone] en tout cas : les développeurs de GrapheneOS se sont prononcés contre.
 
-GrapheneOS est aujourd’hui aux téléphones ce que Linux était aux ordinateurs au début des années 2000. Si je suis content de m’en servir et que je ne compte pas revenir en arrière, je ne suis pas aussi enthousiaste que je l’ai été avec Linux ou Firefox OS par le passé. Étant un projet États-Unien, difficile de savoir comment l’OS évoluera à l’avenir et à quelles lois ses développeurs seront confrontés.
+GrapheneOS est aujourd’hui aux téléphones ce que Linux était aux ordinateurs au début des années 2000. Si je suis content de m’en servir et que je ne compte pas revenir en arrière, je ne suis pas aussi enthousiaste que je l’ai été avec Linux ou Firefox OS par le passé. ~~Étant un projet États-Unien, difficile de savoir comment l’OS évoluera à l’avenir et à quelles lois ses développeurs seront confrontés.~~
 
+**Edit 2025-02-05** : Suite aux retours de GrapheneOS et de quelques autres personnes sur Mastodon, je souhaite corriger une erreur de taille : GrapheneOS n’est pas états-unien. Le fondateur et développeur principal initial de GrapheneOS est canadien. Il est l’un des trois directeurs de l’organisation à but non lucratif. Le développeur principal actuel est ukrainien et fait également partie des directeurs. Le dernier directeur est kazakh. Suite à une augmentation de leur trésorerie, ils ont commencé à embaucher (en télétravail) un développeur basé aux États-Unis ; d’autres embauches similaires sont prévues.
 
+Des utilisateurs ont confimés avoir Android Auto de fonctionnel, et la pixel watch devrait l’être également. 
 
 [grapheneOS]: https://grapheneos.org/
 [fdroid]: https://f-droid.org/
