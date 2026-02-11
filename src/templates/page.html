@@ -56,4 +56,9 @@
     </div>
     {% endif %}
 </article>
+{% if page.extra.comment_id %}
+  <hr>
+  {% set id = page.extra.comment_id %}
+  {% include "shortcodes/comments.html" %}
+{% endif %}
 {% endblock %}

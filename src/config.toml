@@ -51,3 +51,8 @@ header_nav = [
   # { url = "/journal", name_en = "/journal/", name_fr = "/journal/" },
   { url = "/blog", name_en = "/blog/", name_fr = "🗒️ blog" },
 ]
+
+## Comments
+[extra.mastodon]
+host = "diaspodon.fr"
+username = "CedC"
