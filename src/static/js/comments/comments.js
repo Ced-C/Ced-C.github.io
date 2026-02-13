@@ -101,7 +101,7 @@ function loadComments() {
           content.className = "content";
 
           let header = document.createElement("header");
-          header.className = "header";
+          header.className = "comment-header";
 
           let usernameSpan = document.createElement("span");
           usernameSpan.className = "username";
@@ -119,6 +119,14 @@ function loadComments() {
             });
           timestamp.setAttribute("datetime", status.created_at);
 
+          let main = document.createElement("main");
+          main.setAttribute("itemprop", "text");
+          main.innerHTML = status.content;
+
+          let footer = document.createElement("footer");
+          footer.className = "comment-header";
+          
+
           let faves = document.createElement("a");
           faves.className = "faves";
           faves.setAttribute("href", `${ status.url }/favourites`);
@@ -126,10 +134,12 @@ function loadComments() {
           if(status.favourites_count >= 1) {
               faves.textContent = `${ status.favourites_count} ⭐`;
           } 
-
-          let main = document.createElement("main");
-          main.setAttribute("itemprop", "text");
-          main.innerHTML = status.content;
+          
+          let reply = document.createElement("a");
+          reply.className = "reply";
+          reply.setAttribute("href", `${ status.url}`);
+          reply.setAttribute("title", "Répondre via le Fédiverse");
+          reply.textContent = "↩"
 
 
           avatarDiv.appendChild(avatarImg);
@@ -137,11 +147,12 @@ function loadComments() {
 
           header.appendChild(usernameSpan);
           header.appendChild(timestamp);
-          if (faves.textContent) {
-            header.appendChild(faves);
-            }
+          footer.appendChild(faves);
+          footer.appendChild(reply)
+
           content.appendChild(header);
           content.appendChild(main);
+          content.appendChild(footer);
 
           comment.appendChild(avatarDiv)
           comment.appendChild(content)
