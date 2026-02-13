@@ -1,18 +1,18 @@
-<section id="comments">
-  <h2>Comments</h2>
-  <p><a href="https://{{ config.extra.mastodon.host }}/@{{ config.extra.mastodon.username }}/{{ id }}">Respond to this post</a> with an account on the Fediverse (like Mastodon).</p>
-
-  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <h2>Commentaires</h2>
+  <p><a href="https://{{ config.extra.mastodon.host }}/@{{ config.extra.mastodon.username }}/{{ comment_id }}">Poster un commentaire</a> Avec un compte sur le fédiverse (via Mastodon par exemple)</p>
   <div id="comments-wrapper">
-    <noscript><p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a href="https://{{ config.extra.mastodon.host }}/@{{ config.extra.mastodon.username }}/{{ id }}">the original post</a> on Mastodon.</p></noscript>
+    <noscript>
+      <p>Charger les commentaires requiert l’activation de JavaScript. Alternativement, les commentaires sont visibles sur le fédiverse<a href="https://{{ config.extra.mastodon.host }}/@{{ config.extra.mastodon.username }}/{{ comment_id }}">sur le poste original</a> sur Mastodon.</p>
+      <p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a href="https://{{ config.extra.mastodon.host }}/@{{ config.extra.mastodon.username }}/{{ comment_id }}">the original post</a> on Mastodon.</p>
+    </noscript>
   </div>
-  <noscript>You need JavaScript to view the comments.</noscript>
+  <p><button id="load-comment">Charger les commentaires</button></p>
+  <noscript>JavaScript est nécessaire pour voir les commentaires.<br>You need JavaScript to view the comments.</noscript>
   <script src="/js/comments/purify.min.js"></script>
   <script type="text/javascript">
     let host = "{{ config.extra.mastodon.host }}";
     let username = "{{ config.extra.mastodon.username }}";
-    let id = "{{ id }}";
+    let comment_id = "{{ comment_id }}"
   </script>
   <script src="/js/comments/comments.js"></script>
-</section>
 

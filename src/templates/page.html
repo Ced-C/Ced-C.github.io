@@ -56,9 +56,11 @@
     </div>
     {% endif %}
 </article>
-{% if page.extra.comment_id %}
-  <hr>
-  {% set id = page.extra.comment_id %}
-  {% include "shortcodes/comments.html" %}
-{% endif %}
+<hr>
+<comments id="comments">
+    {% if page.extra.comment_id %}
+      {% set comment_id = page.extra.comment_id %}
+      {% include "shortcodes/comments.html" %}
+    {% endif %}
+</comments>
 {% endblock %}
