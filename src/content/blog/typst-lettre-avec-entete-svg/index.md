@@ -8,6 +8,7 @@ tags = ["typst", "FOSS", "tuto", "documentation"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "115886235885263672"
 +++
 
 

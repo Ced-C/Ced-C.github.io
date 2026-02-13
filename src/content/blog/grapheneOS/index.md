@@ -8,6 +8,7 @@ tags = ["FOSS", "mobile", "GAFAM"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "116011135470347757"
 +++
 
 Je ne pensais pas réinstaller une ROM sur un téléphone un jour.
@@ -160,4 +161,3 @@ Des utilisateurs ont confimés avoir Android Auto de fonctionnel, et la pixel wa
 [ubtouch]: https://www.ubuntu-touch.io/
 [kdemobile]: https://plasma-mobile.org/ 
 [frconnect]: https://www.franceconnect.gouv.fr/franceconnect-plus
-

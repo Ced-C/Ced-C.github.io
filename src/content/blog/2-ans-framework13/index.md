@@ -8,6 +8,7 @@ tags = ["computer", "hardware", "linux"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "115173861622104835"
 +++
 
 Mon dernier ordinateur, c’est toujours « le meilleur que j’ai jamais eu ! ». Pourtant, avec mon [Framework](framework), c’est un peu différent.  

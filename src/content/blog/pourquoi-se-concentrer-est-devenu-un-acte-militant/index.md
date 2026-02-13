@@ -8,6 +8,7 @@ tags = ["TDAH", "politique", "GAFAM"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "115886177280758510"
 +++
 
 Nous sommes au début des années 2000.  
