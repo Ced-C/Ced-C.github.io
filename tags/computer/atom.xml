@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Mes 2¢</title>
+    <link href="https://ced-c.github.io/atom.xml" rel="self"/>
+    <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;"/>
+    <updated>2026-02-13T11:21:41+0000</updated>
+    <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;</id>
+
+    
+    
+    
+    
+    
+    
+        
+        
+            
+            <entry>
+                <title>GrapheneOS : la pénultième étape de ma déGAFAMisation</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;grapheneos&#x2F;"/>
+                <updated>2026-02-04T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;grapheneos&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Je ne pensais pas réinstaller une ROM sur un téléphone un jour.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’avais essayé CyanogenMod il y a longtemps, plus de 10 ans, au début des smartphones. Si ça fonctionnait assez bien, je n’y avais pas vu de véritable bénéfice à l’époque. C’était censé être plus léger, mais c’était quand même poussif avec mon téléphone d’alors, un LG Optimus L7 de mémoire.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai donc arrêté de regarder.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’avais entendu parler de &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;grapheneos.org&amp;#x2F;&amp;quot;&amp;gt;GrapheneOS&amp;lt;&amp;#x2F;a&amp;gt;, mais pas au point de vouloir essayer. Après tout, mon téléphone est mon outil de travail, j’ai besoin que ça fonctionne. Mais Android (comme iOS) n’est pas parfait. Pire, il y a des défauts qui me dérangent vraiment :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Il n’est pas possible de supprimer certaines applications comme YouTube par défaut. Et c’est parfois tentant de regarder une vidéo au moindre temps mort (&amp;lt;em&amp;gt;cf.&amp;lt;&amp;#x2F;em&amp;gt; mon &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;pourquoi-se-concentrer-est-devenu-un-acte-militant&amp;#x2F;&amp;quot;&amp;gt;article sur l’attention&amp;lt;&amp;#x2F;a&amp;gt;) ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Servir ses données sur un plateau d’argent à une entreprise qui s’en servira probablement pour entraîner des IA qui ne correspondent pas au modèle que je défends ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Le fait de ne pas pouvoir contrôler son téléphone complètement et de se voir des fonctionnalités refusées sans Android&amp;#x2F;iOS. Pas de paiement sans contact possible avec des systèmes alternatifs comme &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.ubuntu-touch.io&amp;#x2F;&amp;quot;&amp;gt;Ubuntu Touch&amp;lt;&amp;#x2F;a&amp;gt; ou &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;plasma-mobile.org&amp;#x2F;&amp;quot;&amp;gt;Plasma Mobile&amp;lt;&amp;#x2F;a&amp;gt; ; pire, l’État pousse de plus en plus pour avoir des applications « sécurisées » pour accéder à ses services numériques, comme &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.franceconnect.gouv.fr&amp;#x2F;franceconnect-plus&amp;quot;&amp;gt;FranceConnect+&amp;lt;&amp;#x2F;a&amp;gt;, qui demande d’avoir un téléphone dépendant des États-Unis.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Donc quand mon téléphone —le premier téléphone Google que j’achète— tombe en rade après moins de deux ans, je me dis que je ne veux plus donner de l’argent à Google et me demande quelles sont les alternatives.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;En cherchant les alternatives possibles, je ne trouve pas grand-chose de très enthousiasmant. Je retombe par contre sur GrapheneOS, et c’est là que je me dis qu’il est peut-être temps de dire au revoir à l’un des derniers services des GAFAM que j’utilise : Android.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;installation&amp;quot;&amp;gt;Installation&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;J’achète un téléphone Google d’occasion, en m’assurant que le problème connu que j’ai eu sur celui qui a rendu l’âme (chargement d’électricité statique) est résolu. Je prends un modèle reconditionné, pas cher.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Ça fera le taf.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai un plan pour me passer complètement de téléphone à l’avenir, mais il faut encore que j’essaie « pour de vrai ». Je me dis que, sur le papier, GrapheneOS répond à beaucoup de problèmes que j’ai soulevés avec Android :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Il est compatible avec toutes les applications, ou presque&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Il permet d’avoir les services Google dans un environnement cloisonné pour les applications qui s’appuient dessus (plus qu’on ne le pense). Il permet en outre de choisir les accès qu’on donne à Google, qui est traité comme n’importe quelle autre application&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Il ne transmet pas de données personnelles par défaut&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Il se veut plus sécurisé, même si je n’ai pas les compétences pour le vérifier&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ol&amp;gt;
+&amp;lt;p&amp;gt;C’est pas mal, donc. Suffisamment prometteur pour se donner la peine de l’installer. J’ai le souvenir de procédures compliquées pour les ROMs de l’époque ; est-ce toujours le cas ?&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Étrangement, non ! C’est beaucoup plus simple. Mais pas accessible à tout le monde pour autant.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Sous Linux, il y a deux façons d’installer :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Une interface web qu’ils proposent&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;La ligne de commande&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ol&amp;gt;
+&amp;lt;p&amp;gt;Je tente l’option de la simplicité, ça ne fonctionne pas. Le retour n’est pas très loquace sur les raisons pour lesquelles l’étape échoue. Je le comprendrai plus tard.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je me retranche sur la ligne de commande et je comprends qu’une bibliothèque est obsolète et que je dois installer la dernière version à la main pour pouvoir avancer. J’aurais peut-être pu retourner sur l’interface web pour la suite, mais maintenant que je suis devant un terminal, je continue. Au moins, les erreurs donnent des pistes sur le &amp;lt;em&amp;gt;pourquoi&amp;lt;&amp;#x2F;em&amp;gt; une étape échoue.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour peu qu’on sache lire une documentation, interpréter les retours de la ligne de commande et qu’on ait quelques notions d’informatique, l’installation n’est pas trop compliquée.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’aurais peut-être eu la naïveté de le recommander à n’importe qui avant, mais force est de constater que ce n’est pas le cas. Ma compagne n’aurait pas réussi. Il faut quand même comprendre ce qu’on fait, savoir mettre à jour des dépendances à la main, même sous Ubuntu 25.10, qui se veut pourtant récent.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Une fois installé, on a un petit message à chaque redémarrage indiquant qu’un autre OS qu’Android est installé. Je ne sais pas si c’est censé faire peur, mais moi, ça me rassure. Ça veut dire que Google ne sait pas ce que je fais, et que ça l’embête.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;utilisation&amp;quot;&amp;gt;Utilisation&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;À l’utilisation, ce n’est pas très différent d’Android. C’est même pratiquement la même chose, à ceci près que l’on dispose d’un peu plus de contrôle sur les autorisations accordées aux applications. Toutes les applications. Même celles de Google, que j’évite.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;L’environnement cloisonné dans lequel on peut installer les services Google est très simple d’accès, et des réglages permettent de définir des règles afin de le désactiver automatiquement. Je m’en sers peu, mais l’expérience est très fluide, bravo pour cette approche.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;applications-utilisees&amp;quot;&amp;gt;Applications utilisées&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;J’installe les applications de préférence via &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;f-droid.org&amp;#x2F;&amp;quot;&amp;gt;F-Droid&amp;lt;&amp;#x2F;a&amp;gt; quand je trouve mon bonheur (souvent), sinon je passe par Aurora, qui permet d’accéder aux applications présentes sur le Play Store.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Via F-Droid :&amp;lt;&amp;#x2F;strong&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Fossify Calendar – très bon calendrier&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Aves Libre – galerie&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;CoMaps – GPS hors ligne avec circuits de randonnée très précis. C’est un peu long à se géolocaliser, mais ça fonctionne globalement bien&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Nextcloud – sauvegarde de photos sur le cloud et accès à mes fichiers personnels&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;DAVx⁵ – synchronisation du calendrier et des contacts&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Forkgram – client Telegram que j’utilise encore avec ma famille. Au moins, ce n’est pas un GAFAM&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;ProtonVPN, Proton Authenticator – j’utilise beaucoup l’écosystème &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;proton.me&amp;#x2F;&amp;quot;&amp;gt;Proton&amp;lt;&amp;#x2F;a&amp;gt;. Ce sont les seules applications que j’utilise qui sont sur F-Droid&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Tusky – client Mastodon&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;PipePipe – accès minimaliste à YouTube, avec lecture en arrière-plan&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Breezy Weather – météo&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Via Aurora :&amp;lt;&amp;#x2F;strong&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;organiser-sa-vie-avec-md&amp;#x2F;&amp;quot;&amp;gt;Obsidian&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Application bancaire&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;LinkedIn — malheureusement nécessaire pour mon métier&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Proton Mail – parce qu’il n’est pas sur F-Droid&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Firefox Focus – j’aime bien l’expérience minimaliste qu’il propose comme navigateur par défaut. Firefox ensuite pour la synchronisation avec &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;&amp;quot;&amp;gt;Zen Browser&amp;lt;&amp;#x2F;a&amp;gt; sur desktop&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Radio France – je vous avais dit que France Culture, c’est pas trop mal ?&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;SimpleLogin – masquer ses adresses mail est devenu nécessaire&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;WhatsApp – je ne m’en sers quasiment plus, mais ça fonctionne&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Via Google Play (dans l’environnement confiné) :&amp;lt;&amp;#x2F;strong&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Maps, que j’utilise parfois pour les informations sur le trafic routier&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Wallet, pour l’accès aux cartes de fidélité ; le paiement, lui, ne fonctionne pas, Google ne pouvant pas « certifier » l’appareil&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Voilà. C’est assez sommaire, mais c’est ce que j’utilise depuis un mois. C’est donc assez représentatif de mon usage du téléphone.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;deceptions&amp;quot;&amp;gt;Déceptions&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Je m’y attendais, mais forcément, il y a des concessions à faire.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;L’application caméra et sa gestion native des QR codes ne sont pas folichonnes : on ne peut pas scanner un contact et l’ajouter, ni se connecter directement à un réseau Wi-Fi. Il faudrait que je trouve une meilleure application, mais c’est pénible de ne pas avoir cela intégré par défaut. Un petit bémol, mais rien de grave.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour être honnête, je m’attendais à ce que &amp;lt;em&amp;gt;plus&amp;lt;&amp;#x2F;em&amp;gt; de choses ne fonctionnent pas. Globalement, je suis donc plutôt agréablement surpris. La grande majorité des applications fonctionnent bien. Les paiements, non. C’était prévu, mais j’ai maintenant la confirmation.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Il semblerait qu’une solution comme &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.curve.com&amp;#x2F;&amp;quot;&amp;gt;Curve&amp;lt;&amp;#x2F;a&amp;gt; fonctionne sous GrapheneOS, mais je n’ai pas essayé. De ce que j’ai compris, contrairement à Google Pay ou Samsung Pay, l’application a besoin d’accéder à Internet pour fonctionner, ce qui la rend en principe moins fiable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Tant pis, j’utiliserai ma montre connectée pour payer… sauf que.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;watch&amp;quot;&amp;gt;Watch&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;La connexion à une montre Google ne fonctionne pas. Or, il est obligatoire d’appairer la montre avec un téléphone pour s’en servir. C’est frustrant, et ça rend mon nouvel achat inutilisable tel quel.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Il semblerait que certains aient réussi à appairer les deux, mais je ne sais pas si je suis passé à côté de quelque chose ou si les règles ont évolué. En tout cas, je n’ai pas réussi.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Comme solution temporaire, j’ai utilisé le téléphone de mon âme sœur, mais cela me donne accès à ses notifications, ce qui n’est pas idéal. Il faudrait que j’essaie avec une tablette Android quand je remettrai la main sur celle qui dort au fond d’un placard depuis des lustres.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;android-auto&amp;quot;&amp;gt;Android Auto&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Là, c’est plus pénible et ça joue sur la sécurité. J’ai l’impression qu’il est possible de le faire fonctionner — en tout cas, on trouve sur le web des gens qui y arrivent — mais chez moi, ça ne fonctionne pas. Peu importe les permissions accordées à Google, même en étant &amp;lt;em&amp;gt;open bar&amp;lt;&amp;#x2F;em&amp;gt;, rien à faire.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je vais bientôt retrouver ma vieille voiture, qui n’est pas compatible, donc ce n’est pas trop gênant. Mais c’est quand même un confort énorme de pouvoir afficher le GPS de son choix sur l’écran central de la voiture. Il est à la bonne hauteur, on dirait presque que c’est fait pour. Pouvoir contrôler la musique ou la radio depuis cet écran est aussi extrêmement pratique.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je prenais ça pour acquis. Il semblerait que ce soit un luxe dont le prix à payer est &amp;lt;em&amp;gt;toute&amp;lt;&amp;#x2F;em&amp;gt; ma vie privée. C’est trop cher. Je ne payerai pas.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;hr &amp;#x2F;&amp;gt;
+&amp;lt;p&amp;gt;Ce sont les deux ou trois concessions à faire pour avoir un système plus libre. Pour moi, ça vaut le coup. Mais chacun voit midi à sa porte. Je continuerai d’acheter des téléphones Google reconditionnés et d’y installer GrapheneOS à chaque fois que j’en aurai besoin. Pas trop souvent, j’espère : je trouve les Pixels plutôt fragiles.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Il faudrait aussi que je teste plus sérieusement les applications bancaires en France. Consulter ses comptes fonctionne, mais qu’en est-il des virements, de l’activation de services comme Wero, etc. ? À tester.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;conclusion&amp;quot;&amp;gt;Conclusion&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Après près de deux mois d’utilisation, je suis encore dans la période de lune de miel, certes. Tout n’est pas parfait, et certaines concessions sont réelles. Le paiement sans contact, Android Auto, les montres connectées : autant de rappels que l’écosystème Google est conçu pour enfermer, pas pour être quitté.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Mais une chose est sûre : je n’ai pas envie de revenir en arrière. GrapheneOS m’a rappelé quelque chose d’essentiel : les frustrations que l’on ressent avec Android ou iOS ne sont pas des bugs, ce sont des choix. Le manque de contrôle, la dépendance aux services centralisés, l’impossibilité de dire non sans perdre des fonctionnalités —tout cela fait partie du modèle.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Accepter de perdre un peu de confort pour reprendre la main sur un outil aussi central que le téléphone me semble aujourd’hui être un compromis sain. Android était l’un des derniers produits des GAFAM que j’utilisais de façon intensive. GrapheneOS me permet, pour l’instant, de m’en passer sans me couper du monde.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Reste un paradoxe difficile à avaler : en 2025, les seuls téléphones réellement compatibles sont ceux de Google. Pire, l’installation n’est pas simple. Tant que cela n’évoluera pas, GrapheneOS restera une alternative de niche, réservée aux utilisateurs motivés et aux dealers. J’espère qu’un constructeur proposera un jour des modèles avec l’OS préinstallé, mais cela semble mal engagé pour &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.fairphone.com&amp;#x2F;&amp;quot;&amp;gt;Fairphone&amp;lt;&amp;#x2F;a&amp;gt; en tout cas : les développeurs de GrapheneOS se sont prononcés contre.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;GrapheneOS est aujourd’hui aux téléphones ce que Linux était aux ordinateurs au début des années 2000. Si je suis content de m’en servir et que je ne compte pas revenir en arrière, je ne suis pas aussi enthousiaste que je l’ai été avec Linux ou Firefox OS par le passé. &amp;lt;del&amp;gt;Étant un projet États-Unien, difficile de savoir comment l’OS évoluera à l’avenir et à quelles lois ses développeurs seront confrontés.&amp;lt;&amp;#x2F;del&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Edit 2025-02-05&amp;lt;&amp;#x2F;strong&amp;gt; : Suite aux retours de GrapheneOS et de quelques autres personnes sur Mastodon, je souhaite corriger une erreur de taille : GrapheneOS n’est pas états-unien. Le fondateur et développeur principal initial de GrapheneOS est canadien. Il est l’un des trois directeurs de l’organisation à but non lucratif. Le développeur principal actuel est ukrainien et fait également partie des directeurs. Le dernier directeur est kazakh. Suite à une augmentation de leur trésorerie, ils ont commencé à embaucher (en télétravail) un développeur basé aux États-Unis ; d’autres embauches similaires sont prévues.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Des utilisateurs ont confimés avoir Android Auto de fonctionnel, et la pixel watch devrait l’être également.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>Typst : Un latex moderne – Faire une lettre avec en-tête SVG configurable</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;typst-lettre-avec-entete-svg&#x2F;"/>
+                <updated>2026-01-03T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;typst-lettre-avec-entete-svg&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Vous connaissez &amp;lt;strong&amp;gt;LaTeX&amp;lt;&amp;#x2F;strong&amp;gt; ?&amp;lt;br &amp;#x2F;&amp;gt;
+&amp;lt;em&amp;gt;(non, ce n’est pas NSFW, et oui, ça se prononce « La-Tek »)&amp;lt;&amp;#x2F;em&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Moi oui.&amp;lt;br &amp;#x2F;&amp;gt;
+Et j’en garde des séquelles.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai &amp;lt;strong&amp;gt;une&amp;lt;&amp;#x2F;strong&amp;gt; expérience sérieuse avec LaTeX : la rédaction de mon mémoire.&amp;lt;br &amp;#x2F;&amp;gt;
+Une aventure humaine. Une épreuve initiatique. Une erreur de jeunesse.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Déjà, mon tuteur était contre —j’aurais dû l’écouter.&amp;lt;br &amp;#x2F;&amp;gt;
+Ensuite, soyons honnêtes : ce n’était &amp;lt;strong&amp;gt;pas pratique&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Certes, &amp;lt;em&amp;gt;tout&amp;lt;&amp;#x2F;em&amp;gt; est configurable…&amp;lt;br &amp;#x2F;&amp;gt;
+Mais à quel prix ?&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Dès qu’on tente de personnaliser un peu le doc, la courbe d’apprentissage devient un mur d’escalade, sans prises.&amp;lt;br &amp;#x2F;&amp;gt;
+J’avais repris le modèle de l’université sans vraiment comprendre comment il fonctionnait (et je suspecte secrètement ceux qui arrivent à lire et comprendre ces templates de venir d’une autre planète).&amp;lt;br &amp;#x2F;&amp;gt;
+Et surtout, plus mon mémoire avançait, plus &amp;lt;strong&amp;gt;la compilation prenait une éternité&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Bref, à la fin, je me suis dit :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;« Plus jamais. »&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Et j’ai tourné la page…&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;le-format-texte&amp;quot;&amp;gt;Le format texte&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Il y avait &amp;lt;em&amp;gt;un truc&amp;lt;&amp;#x2F;em&amp;gt; que j’aimais particulièrement dans LaTeX : &amp;lt;strong&amp;gt;le format texte&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Un document stocké en texte, ça veut dire :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;qu’on peut l’écrire dans &amp;lt;strong&amp;gt;l’éditeur de son choix&amp;lt;&amp;#x2F;strong&amp;gt; ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;qu’on peut le &amp;lt;strong&amp;gt;versionner avec git&amp;lt;&amp;#x2F;strong&amp;gt; ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;qu’on peut utiliser &amp;lt;strong&amp;gt;tout l’outillage du texte&amp;lt;&amp;#x2F;strong&amp;gt; (regex, scripts, automatisation) ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;qu’on peut se concentrer (en grande partie) sur le &amp;lt;strong&amp;gt;fond&amp;lt;&amp;#x2F;strong&amp;gt;, et gérer la forme à part.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Sur le papier, c’est magnifique.&amp;lt;br &amp;#x2F;&amp;gt;
+En pratique… le jeu n’en valait pas la chandelle. À y repenser, je crois simplement que je n’étais pas la cible.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je me suis retranché sur &amp;lt;em&amp;gt;markdown&amp;lt;&amp;#x2F;em&amp;gt; dès que je l’ai rencontré.
+Il avait presque toutes les propriétés que je cherchais :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;le texte brut,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;la simplicité,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;la portabilité,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;sans la lourdeur de latex et de tout son outillage. J’utilise du Markdown (avec les &amp;lt;em&amp;gt;vim motions&amp;lt;&amp;#x2F;em&amp;gt;) pour tout ou presque :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;mes notes (dans &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;organiser-sa-vie-avec-md&amp;#x2F;&amp;quot;&amp;gt;Obsidian&amp;lt;&amp;#x2F;a&amp;gt;),&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;des mails un peu longs,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;des brouillons de documents, quitte à finir plus tard dans une autre app, une  fois envoyé aux hérétique ne sachant pas utilser un clavier, mais je m’égare ;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;des articles de blog (oui, comme celui-ci).&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;h2 id=&amp;quot;typst-le-latex-moderne-ecrit-en-rust&amp;quot;&amp;gt;Typst, le latex moderne, écrit en Rust&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Et puis un jour, j’ai vu passer &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;typst.app&amp;#x2F;&amp;quot;&amp;gt;Typst&amp;lt;&amp;#x2F;a&amp;gt;. J’ai regardé &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;videos.capitoledulibre.org&amp;#x2F;w&amp;#x2F;ckhaJabpYLZTcMGBnaQoHU&amp;quot;&amp;gt;la vidéo du camarade Patrick Massot&amp;lt;&amp;#x2F;a&amp;gt;, et là je me suis dit :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;« …pourquoi pas ? »&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Typst se présente comme une sorte de &amp;lt;strong&amp;gt;LaTeX moderne&amp;lt;&amp;#x2F;strong&amp;gt; :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;syntaxe plus simple, proche du markdown,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;compilation &amp;lt;em&amp;gt;ultra rapide&amp;lt;&amp;#x2F;em&amp;gt;,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;un seul binaire, et un gestionaire de paquet intégré, bienvenu au XXIᵉ siècle,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;pensé pour évoluer au-delà du PDF, notamment avec un effort pour supporté le format web.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Je regardais de loin le travail du projet &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.pagedjs.org&amp;#x2F;&amp;quot;&amp;gt;paged.js&amp;lt;&amp;#x2F;a&amp;gt; pour son objectif de faire avancer les technologies web et les rendre compatibles avec l’impression ; et donc pouvoir avoir une source unique qui s’adapte au support : téléphone, tablette, écran, papier A4. Je suis ravis que Typst travail également activement sur la question !&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Le langage est suffisamment proche de markdown pour qu’une simple note puisse devenir, progressivement, un vrai document structuré si besoin.
+Pas besoin de savoir &amp;lt;em&amp;gt;a priori&amp;lt;&amp;#x2F;em&amp;gt; quel sera le document final et d’y réfléchir. Pas besoin de choisir entre simplicité et puissance.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Alors… on essaie ?&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;h3 id=&amp;quot;faire-une-lettre-avec-en-tete-svg-parametrable&amp;quot;&amp;gt;Faire une lettre avec en-tête SVG paramétrable&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Je suis en pleine recherche d’emploi.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Mon CV est fait avec Inkscape (l’équivalent libre d’Illustrator), ce qui me donne un contrôle total sur la mise en forme.&amp;lt;br &amp;#x2F;&amp;gt;
+Mais…&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;On me conseille souvent d’adapter le &amp;lt;strong&amp;gt;titre du CV&amp;lt;&amp;#x2F;strong&amp;gt; selon le poste.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Je change parfois mon alias &amp;lt;strong&amp;gt;d’adresse email&amp;lt;&amp;#x2F;strong&amp;gt; pour cloisoner mes usages&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Il m’arrive même d’utiliser une &amp;lt;strong&amp;gt;adresse différente&amp;lt;&amp;#x2F;strong&amp;gt;, (quand j’ai de la famille proche) selon la localisation pour augmenter mes chances de succès.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Résultat :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;je modifie le SVG à la main (ou via des scripts) sur le CV,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;j’exporte en PDF (inkscape &amp;lt;em&amp;gt;headless&amp;lt;&amp;#x2F;em&amp;gt; ❣️),&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;j’ouvre inkscape pour copier l’en-tête dans libre office (et une fois sur deux, j’ai des marges blanches d’un pixel qui me dérangent),&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;je rédige ma lettre dans un logiciel avec la syntaxe vim,&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;je colle le tout dans libre office.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ol&amp;gt;
+&amp;lt;p&amp;gt;Ce n’est pas (très) long. Mais c’est &amp;lt;strong&amp;gt;chiant&amp;lt;&amp;#x2F;strong&amp;gt;, et il y a un peu de frixion quand même.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je me suis demandé si Typst ne pouvait pas simplifier mon &amp;lt;em&amp;gt;workflow&amp;lt;&amp;#x2F;em&amp;gt; notamment sur la lettre de motivation.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;On va donc recréer mon en-tête avec Typst, en rendant les champs &amp;lt;strong&amp;gt;paramétrables&amp;lt;&amp;#x2F;strong&amp;gt; et &amp;lt;strong&amp;gt;scriptables&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;On part de cette en-tête :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;typst-lettre-avec-entete-svg&amp;#x2F;entete.svg&amp;quot; alt=&amp;quot;En-tête de CV&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour produire un &amp;lt;strong&amp;gt;PDF propre&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h4 id=&amp;quot;importer-des-paquets-et-ne-pas-pleurer&amp;quot;&amp;gt;Importer des paquets (et ne pas pleurer)&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;p&amp;gt;À la grande différence de LaTeX, Typst utilise un gestionnaire de paquets &amp;lt;em&amp;gt;centralisé&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;br &amp;#x2F;&amp;gt;
+Et ça, c’est franchement agréable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Ici, on a besoin de pouvoir injecter du texte dans une chaîne, un peu comme les &amp;lt;em&amp;gt;fstring&amp;lt;&amp;#x2F;em&amp;gt; en python, ou la macro &amp;lt;code&amp;gt;format!()&amp;lt;&amp;#x2F;code&amp;gt; en rust.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;On utilise donc le paquet &amp;lt;code&amp;gt;oxifmt&amp;lt;&amp;#x2F;code&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;typst&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;import&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;@preview&amp;#x2F;oxifmt:1.0.0&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; strfmt&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6A737D, #6A737D);&amp;quot;&amp;gt;&amp;#x2F;&amp;#x2F;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6A737D, #6A737D);&amp;quot;&amp;gt; ==== Variables ====&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;Et Cætera&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; address&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;123 Example Street, 00000, Utopie&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; phone&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;+0 123 456 789&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; email&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;hire.me@simplelogin.com&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; position_title&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;C3PO&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; reference_number&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;2026-newGalaxy&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;&amp;lt;h4 id=&amp;quot;modifier-dynamiquement-le-svg&amp;quot;&amp;gt;Modifier dynamiquement le SVG&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;p&amp;gt;On importe ensuite le SVG et on remplace les champs à la volée :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;typst&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; svg_header&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt; strfmt&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;  read&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;entete.svg&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  address&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; address&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  phone&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; phone&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  position_title&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; position_title&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  email&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; email&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;&amp;lt;h4 id=&amp;quot;definir-le-document-et-l-en-tete&amp;quot;&amp;gt;Définir le document et l’en-tête&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;p&amp;gt;On configure ensuite les métadonnées, la page, les marges et l’en-tête :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;typst&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;set&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt; document&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  title&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; +&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; — Lettre de Motivation&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  author&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;let&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; page_width&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; =&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 210mm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;set&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt; page&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  paper&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;a4&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  margin&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; (&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;top&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 46mm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; bottom&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 20mm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; x&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 10mm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  header-ascent&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 0%&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;  header&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; [&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;    #&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;block&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;      width&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; page_width&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;      height&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 46mm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;      inset&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; (&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;left&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; -&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt;1cm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; right&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; -&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt;1cm&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;      {&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;        image&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;bytes&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;svg_header&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;      }&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;    )&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;  ]&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+&amp;lt;p&amp;gt;Afficher proprement l’en-tête, c’est la partie sur laquelle j’ai le plus tâtonné.
+Idéalement, j’aimerais une fonction qui calcule automatiquement la hauteur de l’en-tête de façon dynamique, de sorte à ne
+mettre aucune valeur fixe, mais je n’ai pas trouvé.
+Si vous savez faire mieux : écrivez-moi &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;diaspodon.fr&amp;#x2F;@CedC&amp;quot;&amp;gt;sur Mastodon&amp;lt;&amp;#x2F;a&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h4 id=&amp;quot;redaction&amp;quot;&amp;gt;Rédaction&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;typst&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;set&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt; text&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;font&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;Arial&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt; size&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; 12pt&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt;set&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt; par&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;justify&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt; true&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;text&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;strong&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;Objet&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; +&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; : Candidature au poste &amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; +&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; position_title&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; +&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; &amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; – Ref. &amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#D73A49, #F97583);&amp;quot;&amp;gt; +&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; reference_number&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Madame, Monsieur,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;lorem&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt;120&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;lorem&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt;130&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;lorem&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);&amp;quot;&amp;gt;100&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Bien cordialement,&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;#&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;text&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;name&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;)&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+&amp;lt;p&amp;gt;J’ai mis trois paragraphes remplis par la fonction &amp;lt;code&amp;gt;lorem&amp;lt;&amp;#x2F;code&amp;gt; ici pour comblé, mais c’est là qu’on rédige avec une syntaxe proche de markdown.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h4 id=&amp;quot;compilation&amp;quot;&amp;gt;Compilation&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;p&amp;gt;Une fois la lettre rédigée, on génère le PDF en « compilant » &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;typst-lettre-avec-entete-svg&amp;#x2F;test.typ&amp;quot;&amp;gt;notre fichier typst&amp;lt;&amp;#x2F;a&amp;gt; (&amp;lt;code&amp;gt;.typ&amp;lt;&amp;#x2F;code&amp;gt;).&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;shellscript&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;typst&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; compile&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; test.typ&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+&amp;lt;p&amp;gt;✨Et pouf✨ &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;typst-lettre-avec-entete-svg&amp;#x2F;test.pdf&amp;quot;&amp;gt;un PDF propre&amp;lt;&amp;#x2F;a&amp;gt;, cohérent, automatisable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je peux maintenant arrêter de procrastiner et écrire mes lettres de motivations, Typst ne fait pas (encore) ça.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>Pourquoi se concentrer est devenu un acte militant</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;pourquoi-se-concentrer-est-devenu-un-acte-militant&#x2F;"/>
+                <updated>2025-12-23T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;pourquoi-se-concentrer-est-devenu-un-acte-militant&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Nous sommes au début des années 2000.&amp;lt;br &amp;#x2F;&amp;gt;
+Les GAFAM —Google, Amazon, Facebook (devenu Meta), Apple et Microsoft— se développent à grande vitesse. Leur promesse est simple : rendre le numérique plus pratique, plus accessible, connecter le monde pour se comprendre. En arrière-plan, un autre modèle s’installe, plus discret : capter notre attention pour la transformer en valeur économique.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Vingt ans plus tard, presque tout le monde s’y est mis.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Aux GAFAM se sont ajoutées les industries du divertissement : plateformes de streaming, jeux vidéo, réseaux sociaux, et ce que j’appelle désormais le &amp;lt;em&amp;gt;néscroll&amp;lt;&amp;#x2F;em&amp;gt; —ce défilement sans fin qui ne vise ni l’information ni le plaisir, mais l’occupation permanente de l’esprit.&amp;lt;br &amp;#x2F;&amp;gt;
+Toutes se disputent la même ressource limitée : notre attention. Et toutes embauchent les meilleurs ingénieurs, designers et chercheurs pour l’exploiter.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Nous sommes entrés dans ce que Shoshana Zuboff appelle le &amp;lt;em&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;fr.wikipedia.org&amp;#x2F;wiki&amp;#x2F;%C3%89conomie_de_la_surveillance&amp;quot;&amp;gt;capitalisme de surveillance&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;em&amp;gt;. Le terme est politiquement utile, car engageant, mais je lui préfère ici celui &amp;lt;strong&amp;gt;d’économie de l’attention&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;br &amp;#x2F;&amp;gt;
+Parce qu’au fond, c’est bien de cela qu’il s’agit : non pas seulement de données, mais du &amp;lt;em&amp;gt;vol silencieux de notre capacité à nous concentrer, réfléchir, prendre du recul&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;une-sollicitation-permanente-de-l-attention&amp;quot;&amp;gt;Une sollicitation permanente de l’attention&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;L’économie de l’attention repose sur un principe simple : maximiser le temps d’engagement.&amp;lt;br &amp;#x2F;&amp;gt;
+Plus on reste longtemps sur une plateforme, plus elle génère de la valeur —publicité, données, influence.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour y parvenir, les contenus sont conçus pour être rapides, émotionnels et addictifs : notifications constantes, défilement infini, vidéos courtes, récompenses aléatoires. Tout est pensé pour court-circuiter notre attention volontaire et stimuler nos réflexes.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Gloria Mark (2023) aurait mesuré une diminution drastique du temps moyen de concentration soutenue au travail, directement corrélée à l’omniprésence des outils numériques ; si notre attention peut être entrainée, sans cesse interrompu, le cerveau s’adapte et devient performant pour le zapping, mais perd en capacité de concentration prolongée. On pert alors la capacité d’effort cognitif et de tolérance à l’ennui —des compétences pourtant centrales pour apprendre, réfléchir et créer.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;glissement-personnel&amp;quot;&amp;gt;Glissement personnel&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;J’ai été diagnostiqué enfant avec un trouble de l’attention, mais faute de personnel spécialisé là où je vivais, il n’a jamais été pris en charge.&amp;lt;br &amp;#x2F;&amp;gt;
+Comme beaucoup, j’ai fait sans. J’ai tenté de masquer ce trouble, d’en limiter les effets, de le contourner par différentes techniques, avec des succès variables selon les périodes.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Et pendant longtemps, j’ai cru que j’avais trouvé la solution.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Toujours doté d’une forte curiosité, j’ai commencé, vers 2019 à me documenter sur une multitude de sujets qui m’intéressaient. Très vite, c’est devenu une &amp;lt;em&amp;gt;drogue respectable&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;br &amp;#x2F;&amp;gt;
+Sous prétexte que j’avais besoin d’en savoir toujours plus, je réduisais au minimum les temps morts. Une vidéo ou un podcast m’accompagnait partout : en cuisinant —moment qui était pourtant pour moi un sas de décompression après le travail— dans la voiture, dans les transports, et parfois même sous la douche.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai toujours été allergique à l’ennui.
+Le numérique m’avait offert la solution parfaite : une infinité de sujets passionnants, toujours disponibles, et moins culpabilisant que la switch.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Puis, presque sans m’en rendre compte, quelque chose a changé.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Mes performances au travail ont diminué. Je m’investissais moins à la maison. Je préférais écouter plutôt que discuter.&amp;lt;br &amp;#x2F;&amp;gt;
+Inconsciemment, je fuyais même certaines conversations ! Je n’étais plus en train d’apprendre, je consommais du contenu.&amp;lt;br &amp;#x2F;&amp;gt;
+Et le trouble que je pensais maîtriser avait repris le dessus, amplifié par un environnement conçu pour l’exacerber.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;de-l-experience-individuelle-a-la-conclusion-collective&amp;quot;&amp;gt;De l’expérience individuelle à la conclusion collective&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Ces dernières années, j’ai vu fleurir sur le web un nombre croissant de personnes se reconnaissant dans le TDAH, avec un certain scepticisme initial : ce nombre ne &amp;lt;em&amp;gt;pouvait pas&amp;lt;&amp;#x2F;em&amp;gt; avoir autant augmenté. C’était forcément une nouvelle génération peu encline à l’effort (#vieuxcon). J’avais tort. Si les prédispositions existent, l’environnement joue un rôle tout aussi déterminant.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;L’économie de l’attention crée précisément un &amp;lt;strong&amp;gt;environnement cognitif pathogène&amp;lt;&amp;#x2F;strong&amp;gt;, qui reproduit et amplifie des comportements associés au TDAH : impulsivité, recherche de nouveauté, difficulté à soutenir l’effort, fuite de l’ennui.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Le problème n’était pas seulement individuel. Il est &amp;lt;em&amp;gt;systémique&amp;lt;&amp;#x2F;em&amp;gt;. Et quand je vois les dégâts à l’âge adulte, je m’inquiète pour les générations à venir qui grandissent avec ce paradigme.&amp;lt;br &amp;#x2F;&amp;gt;
+Des travaux publiés dans &amp;lt;em&amp;gt;JAMA Pediatrics&amp;lt;&amp;#x2F;em&amp;gt; (Christakis et al., 2018) établissent un lien clair entre exposition précoce aux écrans rapides et troubles de l’attention ultérieurs.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;L’environnement numérique dominant est délétère pour notre attention.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;reprendre-la-main&amp;quot;&amp;gt;Reprendre la main&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Cette prise de conscience mène à une conclusion simple : ce n’est pas une fatalité.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;L’économie de l’attention agit comme un courant puissant. Il est difficile de lutter à contre-courant, mais il est encore possible de &amp;lt;em&amp;gt;sortir de l’eau&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Reprendre le contrôle de son attention implique de renoncer à l’idée que l’esprit doit être occupé en permanence.&amp;lt;br &amp;#x2F;&amp;gt;
+Accepter les pauses, le silence, voire l’ennui —aussi inconfortable soit-il au début— devient un acte de résistance.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Et surtout, comprendre que pour gagner la bataille de l’attention, il ne faut pas combattre sur le terrain choisi par l’adversaire.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai supprimé l’accès à YouTube sur mon téléphone, ainsi que mes abonnements aux podcasts.&amp;lt;br &amp;#x2F;&amp;gt;
+Désormais, je consulte les contenus quand je le décide, dans un temps dédié.
+Les sujets ne viennent plus à moi : c’est moi qui vais vers eux, quand je le choisi, en maitrisant le temps que j’y passe.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai découvert que c’est souvent quand on n’a pas de stimulation extérieur (sur mon vélo, &amp;lt;em&amp;gt;sans&amp;lt;&amp;#x2F;em&amp;gt; écouteur par exemple),  que surgissent les bonnes idées.&amp;lt;br &amp;#x2F;&amp;gt;
+C’est là qu’on prend du recul, qu’on anticipe, qu’on pense tout simplement.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Ayant connu l’internet des années 2000 —celui des blogs et des forums— et ayant fui le monde réel comme bon nombre d’adolescent, à cause de harcèlement, mais aussi d’un manque de personnes possédants mes passions de geeks, j’avais du mal à envisager une coupure totale avec le numérique. Mais enfait la réponse n’est peut-être pas aussi radicale et peut-être qu’elle était devant moi depuis des années : la déGAFAMisation.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;On savait déjà que les GAFAM était mauvais. Pas par malveillance individuelle, mais par logique économique, et la meilleure façon de lutter collectivement, c’est de &amp;lt;strong&amp;gt;ne pas utiliser leurs services&amp;lt;&amp;#x2F;strong&amp;gt;. Framasoft avait commencé le travail avec sa campagne &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;degooglisons-internet.org&amp;#x2F;&amp;quot;&amp;gt;dégooglisons internet&amp;lt;&amp;#x2F;a&amp;gt;.
+J’avais commencé ma déGAFAMisation il y a longtemps, &amp;lt;em&amp;gt;remplaçant&amp;lt;&amp;#x2F;em&amp;gt; certains services : MacOS&amp;#x2F;Windows → Linux, Gmail → &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;proton.me&amp;#x2F;mail&amp;quot;&amp;gt;Proton Mail&amp;lt;&amp;#x2F;a&amp;gt;, Amazon → &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.fnac.com&amp;#x2F;&amp;quot;&amp;gt;FNAC&amp;lt;&amp;#x2F;a&amp;gt; ; j’allais devoir à présent aller plus loin. J’ai maintenant de bonnes raisons pour &amp;lt;em&amp;gt;me passer&amp;lt;&amp;#x2F;em&amp;gt; de certains services. Perdre en facilité, gagner en liberté, en indépendance, en clarté mentale.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;interoperabilite-ou-enfermement&amp;quot;&amp;gt;Interopérabilité ou enfermement&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Avec l’emmerdification croissante des plateformes, une chose devient évidente : l’interopérabilité n’a jamais été aussi importante. Des protocoles ouverts, standard, libres.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;La décentralisation des serveurs, est une première étape importante, mais ce n’est peut-être que le premiers pas. Je rêve du jour où les protocoles et algorithmes seraient modulaire : être capable de choisir son algorithme de recommandation. Être capable de l’intégrer sur des plateformes comme Mastodon, ou Peertube. En choisir un différent pour le perso et pour le travail. Je ne sais pas si certains y travaillent aujourd’hui, j’espère.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;conclusion&amp;quot;&amp;gt;Conclusion&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Aujourd’hui, j’ai retrouvé suffisamment d’attention pour enfin sortir ce billet de ma tête.&amp;lt;br &amp;#x2F;&amp;gt;
+Je ne prétends pas que mes solutions fonctionnent pour tout le monde, mais ça peut être des pistes intéressante dans le voyage personnel de chacun. De mon côté, je compte pousser l’expérience encore plus loin, en tentant de trouver des alternatives au smartphone, mais ce sera pour une prochaine fois, quand j’aurai pris davantage de recul.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;a-retenir&amp;quot;&amp;gt;À retenir&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Se séparer des plateformes qui se battent pour notre attention&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Retrouver une temporalité numérique choisie, et non subie&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Accepter de perdre en facilité pour gagner en liberté&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Miser sur l’interopérabilité pour ne pas se retrouver piégé&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Et vous ?&amp;lt;br &amp;#x2F;&amp;gt;
+Quelles sont vos techniques pour ne pas vous laisser aspirer par l’économie de l’attention ?&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>FrameWork 13 : deux ans plus tard</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;2-ans-framework13&#x2F;"/>
+                <updated>2025-09-09T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;2-ans-framework13&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Mon dernier ordinateur, c’est toujours « le meilleur que j’ai jamais eu ! ». Pourtant, avec mon &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;2-ans-framework13&amp;#x2F;framework&amp;quot;&amp;gt;Framework&amp;lt;&amp;#x2F;a&amp;gt;, c’est un peu différent.&amp;lt;br &amp;#x2F;&amp;gt;
+Il y a près de deux ans, j’achetais un Framework 13, un ultraportable (relativement léger, ≈ 1,2 kg), &amp;lt;strong&amp;gt;modulaire&amp;lt;&amp;#x2F;strong&amp;gt; et &amp;lt;em&amp;gt;Linux Friendly&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;br &amp;#x2F;&amp;gt;
+Mon ordinateur, c’est bien plus qu’un outil de travail ou de jeu : c’est une machine qui m’accompagne partout, ou presque. Que ce soit à mon bureau, avec son dock USB4, sur le canapé ou en déplacement, il doit donc supporter un train de vie pas toujours tranquille.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;2-ans-framework13&amp;#x2F;framework13_close.jpg&amp;quot; alt=&amp;quot;framework13 fermée&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;En octobre 2023, je craquais donc pour le Framework 13 (AMD 7040), qui n’était alors proposé qu’en pré-commande (batch 9), pour la modique somme de 1 049 €, via l’édition « DIY ».  Pour un peu de fun, j’ai opté pour les bords d’écran orange, et pour un clavier « clear » comprendre transparent, sans marquage —en géométrie ISO bien sûr pour profiter de la frappe en &amp;lt;em&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ergol.org&amp;#x2F;installation&amp;#x2F;#variante-en-a-angle-mod&amp;quot;&amp;gt;variante A&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;em&amp;gt;.
+J’avais un SSD sous la main et j’ai complété avec 32 Gio de RAM pour ~130 € chez Crucial. Je pensais être &amp;lt;em&amp;gt;très&amp;lt;&amp;#x2F;em&amp;gt; large avec de telles specs, mais force est de constater que c’est parfois à peine suffisant pour mon usage : le disque est plein, et je me suis vite retrouvé limité par la taille des modèles IA open-source que j’ai pu tester.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Cela fait donc bientôt deux ans que je me promène avec la bête et, si je ne suis pas prêt de changer de machine, il me paraît intéressant de faire un retour sur une marque encore relativement récente dans le monde du PC portable. Et surtout de répondre à la fameuse question : suis-je satisfait ?  Si je devais racheter un ordinateur, craquerais-je à nouveau pour un Framework ?&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour y répondre, il faut que je parle un peu de mon usage, qui n’est pas forcément le vôtre. Je ne suis pas développeur. Je suis simplement un enthousiaste un peu touche-à-tout qui traîne sur les internets depuis sûrement trop longtemps.&amp;lt;br &amp;#x2F;&amp;gt;
+En résumé : beaucoup de navigateur, un peu de code, quelques expérimentations avec des modèles IA locaux, que ce soit des LLMs ou de la reconnaissance d’image. Occasionnellement, je fais un peu de modélisation 3D et de la retouche d’image, mais rien de très gourmand.&amp;lt;br &amp;#x2F;&amp;gt;
+J’ai utilisé cette machine pendant un an et demi au travail, et depuis, uniquement à titre personnel.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;![le Framework13 ouvert, allumé, montrant une session Gnome](framework13_ouvert.jpg]&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;ce-que-j-aime&amp;quot;&amp;gt;Ce que j’aime&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;h3 id=&amp;quot;une-qualite-percue-haut-de-gamme&amp;quot;&amp;gt;Une qualité perçue haut de gamme&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;La machine a un design épuré, largement inspiré des MacBooks.&amp;lt;br &amp;#x2F;&amp;gt;
+C’est sobre, élégant et pratique ; mention spéciale pour les vis torx, pour la plupart &amp;lt;em&amp;gt;captives&amp;lt;&amp;#x2F;em&amp;gt;, ce qui permet de démonter &amp;#x2F; remonter l’ordinateur très facilement.&amp;lt;br &amp;#x2F;&amp;gt;
+Le seul bémol esthétique est peut-être la largeur des bords d’écran, imposants pour les standards actuels, mais ça reste correct.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;legerete-robustesse&amp;quot;&amp;gt;Légèreté &amp;amp;amp; robustesse&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;À 1,2 kg, la machine est facile à transporter. Elle ne se fait pas oublier dans un sac, mais ce n’est pas non plus trop lourd.&amp;lt;br &amp;#x2F;&amp;gt;
+On peut utiliser le même chargeur pour le téléphone et l’ordinateur, et ça, c’est agréable (même si ça tend à devenir la norme).&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Côté robustesse, la machine a fait ses preuves : mon enfant (~13 kg) marche régulièrement dessus malgré mes remontrances et mes tentatives pour mieux le cacher. Résultat : un très léger renfoncement, quasiment imperceptible, mais la machine fonctionne toujours sans problème.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;2-ans-framework13&amp;#x2F;framework13_dent.jpg&amp;quot; alt=&amp;quot;Un zoom sur le capot pour montrer un très léger renfoncement&amp;quot; &amp;#x2F;&amp;gt;
+(regardez bien en haut à gauche)&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;linux&amp;quot;&amp;gt;Linux&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Installation et utilisation quotidiennes sans accroc. Le lecteur d’empreinte est compatible Linux. Je ne pensais pas m’en servir, mais finalement, dans les premiers jours d’&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ergol.org&amp;#x2F;&amp;quot;&amp;gt;Ergo‑L&amp;lt;&amp;#x2F;a&amp;gt;, quand la disposition n’était pas encore intégrée à XKB, ça m’a été pratique. Il est capricieux, mais une fois le bon geste trouvé, ça fonctionne.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;modulaire-et-bien-pense&amp;quot;&amp;gt;Modulaire et bien pensé&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Les cartes d’extension (USB-C, USB-A, HDMI…) font exactement ce qu’on attend d’elles. Et pouvoir recharger l’ordinateur des deux côtés est un confort dont on ne veut plus se passer.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je pensais que les ports interchangeables seraient un gadget, mais au final, c’est très pratique de pouvoir ajouter une prise HDMI juste avant une conférence. C’est aussi utile de pouvoir remplacer un port endommagé à force de brancher&amp;#x2F;débrancher des câbles de qualité variable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;clavier-trackpad-plaisants&amp;quot;&amp;gt;Clavier &amp;#x2F; trackpad plaisants&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Le clavier est très agréable. Comme je tape beaucoup (Vim, terminal, Vimium…), ça compte. Le trackpad est aussi de bonne facture, ce qui n’est pas si courant.
+&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;2-ans-framework13&amp;#x2F;fw13_clear_kbd.jpg&amp;quot; alt=&amp;quot;Une photo du clavier « clear » et du trackpad&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;respect-de-la-vie-privee&amp;quot;&amp;gt;Respect de la vie privée&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Les interrupteurs matériels pour la caméra et le micro sont un vrai plus. Un clic, et c’est coupé : pas de doute possible.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;rapport-puissance-prix-interessant&amp;quot;&amp;gt;Rapport puissance &amp;#x2F; prix intéressant&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Pour les machines d’entrée de gamme, le rapport puissance &amp;#x2F; prix est discutable. Mais sur une configuration comme la mienne — 32 Gio de RAM, 1 To de SSD, processeur récent —, on est plutôt compétitif.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;ce-que-j-aime-moins&amp;quot;&amp;gt;Ce que j’aime moins&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;h3 id=&amp;quot;autonomie-trop-courte-dans-mon-usage&amp;quot;&amp;gt;Autonomie : trop courte dans mon usage&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;En usage classique, et en limitant la charge à 75 % pour préserver la batterie, je tourne autour de 4 h 30. C’est plus que ce que j’ai eu auparavant, donc pas rédhibitoire, mais ça reste juste. Ce n’est même pas une demi-journée d’utilisation.&amp;lt;br &amp;#x2F;&amp;gt;
+Autant dire qu’il faut toujours avoir une prise pas trop loin. On est bien loin de l’efficacité des Mac, et même d’autres machines qui promettent (sur le papier) 8 h d’autonomie.&amp;lt;br &amp;#x2F;&amp;gt;
+C’est &amp;lt;em&amp;gt;le gros&amp;lt;&amp;#x2F;em&amp;gt; inconvénient de cette machine pour moi.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;audio-moyen&amp;quot;&amp;gt;Audio moyen&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Les haut-parleurs sont corrects, sans plus. Suffisants pour une visio ou une vidéo, mais pas pour écouter de la musique ou regarder un film confortablement.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;connexion-wi-fi-capricieuse&amp;quot;&amp;gt;Connexion Wi-Fi capricieuse&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Je ne sais pas si c’est lié à la puce MediaTek (qui a mauvaise réputation), à un problème de pilotes ou autre, mais j’ai eu des coupures intempestives de réseau lors de visioconférences.&amp;lt;br &amp;#x2F;&amp;gt;
+Était-ce l’infrastructure, l’ordinateur, les deux ? Je n’ai pas creusé, et en dehors de ce cas d’usage précis, pas de souci.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;le-clavier-clear&amp;quot;&amp;gt;Le clavier “clear”&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;C’est &amp;lt;strong&amp;gt;joli&amp;lt;&amp;#x2F;strong&amp;gt;, ça attire l’œil… jusqu’à ce que ça devienne un peu glissant après une utilisation continue. La microfibre et l’alcool ménager deviennent alors indispensables.&amp;lt;br &amp;#x2F;&amp;gt;
+Autre bémol : si on regarde de près, on distingue les petites saletés accumulées sous les touches. Rien de dramatique, mais jamais agréable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;2-ans-framework13&amp;#x2F;fw13_kbd_zoom.jpeg&amp;quot; alt=&amp;quot;Une photo zoomée du clavier, en faisant attention, on peut voir des poils sous certaines touches comme la barre d’espace&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;De plus, avec mon usage intensif, la touche &amp;lt;strong&amp;gt;AltGr&amp;lt;&amp;#x2F;strong&amp;gt; s’est fendue. Ce n’est pas gênant pour taper, mais je ne sais pas comment ça va évoluer. La bonne nouvelle, c’est que, moyennant quelques euros, je peux toujours remplacer le clavier.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;👉 Le clavier “clear”, c’est cool, mais je ne suis pas certain de retenter l’expérience.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;verdict&amp;quot;&amp;gt;Verdict&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Le Framework 13 (AMD 7040) est une machine attachante. Pas parfaite, mais la cause qu’elle défend me donne envie de lui laisser sa chance.&amp;lt;br &amp;#x2F;&amp;gt;
+Les mauvaises langues diront qu’on s’enferme dans un énième écosystème propriétaire, mais le fait d’avoir ouvert les modules en open-hardware va dans la bonne direction.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;La machine pose peut-être les bases de ce que pourrait être une électronique moderne : plus modulaire, plus réparable. En tout cas, c’est une machine très bien exécutée et, si vous pouvez passer outre ses petits défauts (batterie…), c’est une très bonne option.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Quand ma femme aura besoin d’un ordinateur, je sais déjà ce que je lui proposerai. Quant à moi, je suis déjà équipé, et prêt à upgrader vers une version RISK-V quand la techno aura murie.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>Zen Browser : Ce que Firefox aurait dû devenir</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;zen-browser&#x2F;"/>
+                <updated>2025-08-15T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;zen-browser&#x2F;</id>
+                <content type="html">&amp;lt;h2 id=&amp;quot;la-lente-decente-de-firefox&amp;quot;&amp;gt;La lente décente de Firefox&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Je n’avais pas changé de navigateur depuis plus de vingt ans.
+Vingt ans à soutenir Mozilla et &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.mozilla.org&amp;#x2F;firefox&amp;quot;&amp;gt;Firefox&amp;lt;&amp;#x2F;a&amp;gt;.
+J’avais même acheté un téléphone sous FirefoxOS à l’époque : le Flame, c’est dire !&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour moi, Firefox c’était une évidence, c’était David contre Goliath,
+c’était le seul navigateur indépendant et complet, avec un écosystème riche de &amp;lt;em&amp;gt;plugins&amp;lt;&amp;#x2F;em&amp;gt; offrant des possibilités de personnalisation quasi infinies.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;C’était aussi &amp;lt;em&amp;gt;historiquement&amp;lt;&amp;#x2F;em&amp;gt; un avocat d’un web plus juste, plus neutre, plus soucieux de notre vie privée. Mais ça, c’était au début des années 2000. Depuis les années 2010, les choses se sont petit à petit dégradées.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;FirefoxOS.jpg&amp;quot; alt=&amp;quot;FirefoxOS: Une bannière avec un renard de feu et un téléphone tournant vraisemblablement sous FirefoxOS&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;D’abord lentement : Firefox est passé du rôle de &amp;lt;em&amp;gt;leader&amp;lt;&amp;#x2F;em&amp;gt;, démocratisant de nouveaux usages —onglets, marque-pages, plugins— à celui de &amp;lt;em&amp;gt;suiveur&amp;lt;&amp;#x2F;em&amp;gt;, adoptant avec retard les innovations que proposait Google avec Chrome.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Firefox est devenu plus lent, moins attrayant, mais il gardait au moins une force : la protection de notre vie privée. J’y croyais tellement que j’avais même acheté un téléphone sous FirefoxOS, convaincu qu’il fallait soutenir cette alternative face aux GAFAM.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;Browser-Market-Share.png&amp;quot; alt=&amp;quot;Une courbe montrant l’évolution des parts de marché des navigateurs web (données startcounter) de 2009-2023 ; la dominance de Chrome est claire. Firefox passe de ~30 % à ~4 %&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Mais il faut bien l’admettre : depuis 10 ans, Mozilla enchaîne les mauvaises décisions. Et si les parts de marché ne cessaient de baisser, je restais fidèle… faute d’alternative crédible.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;les-forks-de-firefox&amp;quot;&amp;gt;Les forks de Firefox&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Je pensais ne jamais trouver un navigateur qui respecte mes critères (par ordre d’importance) :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Pas&amp;lt;&amp;#x2F;strong&amp;gt; basé sur Blink (et basé sur Gecko&amp;#x2F;Servo si possible)&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Stable&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Respectueux de la vie privée&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Capable de gérer un grand nombre d’onglets&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Compatible avec les extensions&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Et pourtant, des alternatives existent :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.waterfox.net&amp;#x2F;&amp;quot;&amp;gt;Waterfox&amp;lt;&amp;#x2F;a&amp;gt;, l’historique&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;librewolf.net&amp;#x2F;&amp;quot;&amp;gt;LibreWolf&amp;lt;&amp;#x2F;a&amp;gt;, radicalement tourné vers la vie privée&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;floorp.app&amp;#x2F;en-US&amp;quot;&amp;gt;Floorp&amp;lt;&amp;#x2F;a&amp;gt;, très orienté personnalisation&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Et ma dernière découverte : celui qui m’a fait basculer : &amp;lt;strong&amp;gt;&amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;zen-browser.app&amp;#x2F;&amp;quot;&amp;gt;Zen Browser&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;strong&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;zen-browser&amp;quot;&amp;gt;Zen Browser&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Zen Browser, c’est ce que Firefox aurait dû devenir : respectueux de la vie privée, performant &amp;lt;strong&amp;gt;et&amp;lt;&amp;#x2F;strong&amp;gt; innovant.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;une-interface-moderne-et-coherente&amp;quot;&amp;gt;Une interface moderne et cohérente&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Zen repense l’expérience utilisateur.
+Son interface, inspirée d’Arc Browser, introduit des onglets verticaux par défaut, élégants et ergonomiques. Trois types d’onglets sont proposés :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Normaux&amp;lt;&amp;#x2F;strong&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Épinglés&amp;lt;&amp;#x2F;strong&amp;gt; (fermables mais persistants)&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Essentiels&amp;lt;&amp;#x2F;strong&amp;gt; (toujours visibles, toujours chargés)&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;zen.png&amp;quot; alt=&amp;quot;Illustration du site de Zen (avec des captures d’écran de Zen sur… Zen&amp;quot; &amp;#x2F;&amp;gt;
+Un mode compact permet de masquer la barre latérale jusqu’au survol, libérant l’écran et donnant un aspect ultra minimaliste, permettant de se focaliser sur la page en cours —une navigation plus… zen ?&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Avec Zen, chaque choix de design est cohérent : onglets verticaux adaptés aux écrans larges, adresse minimaliste, absence de page de nouvel onglet —remplacée par un champ de recherche flottant façon &amp;lt;em&amp;gt;command pallet&amp;lt;&amp;#x2F;em&amp;gt; dans les app modernes VScode, Obsidian pour en citer quelques une avec ce principe.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;zen-pallet.png&amp;quot; alt=&amp;quot;Zen, en mode compact, quand on ouvre un nouvel onglet : on reste sur la même page&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;des-fonctionnalites-qui-comptent&amp;quot;&amp;gt;Des fonctionnalités qui comptent&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Zen ne se contente pas de changer l’apparence. Il ajoute des fonctionnalités qui semblent naturelles :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Split View&amp;lt;&amp;#x2F;strong&amp;gt; : affichage jusqu’à 4 pages côte à côte, intégré au navigateur.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Spaces&amp;lt;&amp;#x2F;strong&amp;gt; : de véritables espaces de travail séparés (cookies, sessions, onglets essentiels propres à chaque espace), avec intégration aux &amp;lt;em&amp;gt;containers&amp;lt;&amp;#x2F;em&amp;gt; de Firefox.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;des détails bien pensés : on a par exemple contrôler youtube via une barre dédiée qui apparait seulement quand on a une vidéo en cours.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;zen-browser&amp;#x2F;zen-yt.png&amp;quot; alt=&amp;quot;La barre youtube qui s’affiche&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Ces outils transforment la navigation sans la compliquer. Là où Mozilla tergiverse avec des gadgets d’IA peu aboutis, Zen propose des solutions simples et efficaces.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;personnalisation-et-extensions&amp;quot;&amp;gt;Personnalisation et extensions&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Zen hérite du meilleur de Firefox : compatibilité totale avec ses extensions, synchronisation via un compte Firefox, DRM, mode image dans l’image, traductions locales, etc.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Mais il va plus loin :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Paramètres de confidentialité plus stricts par défaut (télémétrie désactivée, appels externes limités).&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Un système de thèmes colorés et dynamiques qui donnent une identité visuelle unique au navigateur.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Zen reste compatible avec les comptes firefox et, comme il n’est pas disponible sur mobile, cela permet de synchroniser sa navigation et ses mots de passes avec firefox sur Android ou iOS, c’est appréciable.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;installation&amp;quot;&amp;gt;Installation&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Zen n’est pas encore disponible dans les dépôts classiques. On a donc trois possibilités d’installation :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Téléchargé le binaire et l’exécuter en &amp;lt;em&amp;gt;userspace&amp;lt;&amp;#x2F;em&amp;gt; ; il est ensuite capable de se mettre à jour tout seul&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Télécharger l’AppImage depuis le &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;zen-browser&amp;#x2F;desktop&amp;quot;&amp;gt;GitHub officiel&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Télécharger Zen via &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;flathub.org&amp;#x2F;&amp;quot;&amp;gt;Flathub&amp;lt;&amp;#x2F;a&amp;gt;.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;p&amp;gt;Le projet est encore en bêta, mais déjà très stable dans mon usage quotidien, rapide, fluide, et sans compromis ; je l’utilise à la maison comme au travail sans souci notable !&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;conclusion-un-vrai-souffle-d-air-frais&amp;quot;&amp;gt;Conclusion : un vrai souffle d’air frais&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Zen c’est « juste un nièm fork » de Firefox, mais très bien réalisé. C’est une réinterprétation moderne, élégante et pragmatique de ce que devrait être un navigateur en 2025.
+Un navigateur centré sur l’utilisateur qui ne cède pas aux modes du moment, et ça, ça fait du bien.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Pour moi, Zen est ce que Firefox aurait dû devenir.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>Organiser sa vie avec Markdown</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;organiser-sa-vie-avec-md&#x2F;"/>
+                <updated>2025-07-13T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;organiser-sa-vie-avec-md&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Je n’aimais pas écrire. Je n’ai jamais aimé ça —probablement parce que je suis globalement mauvais en communication et que je n’ai jamais compris comment ça fonctionne.
+Petit, j’avais une très bonne mémoire, et j’étais très lent pour écrire. J’avais donc pris l’habitude de ne noter que le strict nécessaire pour mes cours avec un système hiéroglyphique que seul moi pouvais comprendre.
+Plus tard, dans ma vie professionnelle, c’était pareil : très peu d’écrit —le strict minimum. La trentaine approchant, je me suis rendu compte que ma mémoire n’était plus aussi bonne et que je me posais de nouvelles questions :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;« Que s’est-on dit déjà dans la dernière réunion ? »&amp;lt;&amp;#x2F;em&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;« Mince, qu’est-ce que le client m’avait dit, déjà ? »&amp;lt;&amp;#x2F;em&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Ça devenait de plus en plus critique, et j’ai donc commencé à prendre des notes. J’utilisais &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;joplinapp.org&amp;#x2F;&amp;quot;&amp;gt;Joplin&amp;lt;&amp;#x2F;a&amp;gt; à l’époque : libre, compatible avec &amp;lt;a href=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;organiser-sa-vie-avec-md&amp;#x2F;nextcloud.com&amp;#x2F;&amp;quot;&amp;gt;Nextcloud&amp;lt;&amp;#x2F;a&amp;gt;, il cochait toutes les cases, philosophiques comme techniques. Je pouvais même avoir mes notes sur mon téléphone.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Petit à petit, un problème apparaissait cependant. J’avais bien vu que je m’éloignais de la gestion par dossier au profit d’une gestion par tag partout où c’était possible. Pourtant, ce &amp;lt;em&amp;gt;workflow&amp;lt;&amp;#x2F;em&amp;gt; était compliqué avec Joplin.
+Je me suis donc intéressé à &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;obsidian.md&amp;#x2F;&amp;quot;&amp;gt;Obsidian&amp;lt;&amp;#x2F;a&amp;gt; qui, bien qu’il ne soit pas libre, avait l’avantage d’utiliser uniquement des fichiers markdown dans des dossiers classiques, rendant &amp;lt;em&amp;gt;a priori&amp;lt;&amp;#x2F;em&amp;gt; l’ensemble facilement exportable.
+&amp;lt;img src=&amp;quot;https:&amp;#x2F;&amp;#x2F;ced-c.github.io&amp;#x2F;blog&amp;#x2F;organiser-sa-vie-avec-md&amp;#x2F;obsidian_graph.png&amp;quot; alt=&amp;quot;Une capture d’écran d’obsidian et de sa vue gaphique. Chaque point représente une note, et un trait est tracé entre deux notes dès lors qu’elles sont liées&amp;quot; &amp;#x2F;&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;En deux ans, je suis passé d’un stade où je n’aimais pas écrire à un stade où je prends des notes &amp;lt;strong&amp;gt;quotidiennement&amp;lt;&amp;#x2F;strong&amp;gt;. Elles m’aident à noter les choses importantes, à me souvenir de tout, et à retrouver l’information le plus fluidement possible.
+Mais ça ne s’est pas fait en un jour, et je n’ai pas tout maîtrisé du premier coup. Voici quelques astuces en la matière.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;organisation&amp;quot;&amp;gt;Organisation&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Mon organisation n’est pas parfaite, elle est le résultat d’un historique avec différents
+logiciels, mais aussi la nouvelle approche que j’ai avec Obsidian. Petit à petit tout tend
+à s’améliorer, mais reprendre les plus de 2000 notes que j’ai serait bien trop chronophage
+pour une utilité réduite.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Voici donc la structure à laquelle je suis arrivée aujourd’hui :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;shellscript&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;Obsidian&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;├──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 🆕&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; To_Sort&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;├──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 🐾&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; Templates&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;├──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 👨&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; Perso&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;├──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 💼&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; Work&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;├──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 🖇️&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; Ressources&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#6F42C1, #B392F0);&amp;quot;&amp;gt;└──&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; 🗃️&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#032F62, #9ECBFF);&amp;quot;&amp;gt; Index&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;&amp;lt;h3 id=&amp;quot;to-sort-template&amp;quot;&amp;gt;To_Sort &amp;amp;amp; Template&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Les dossiers les moins intéressants, mais tout de même essentiel.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;To_Sort&amp;lt;&amp;#x2F;strong&amp;gt;, C’est le dossier dans lequel les notes sont créées par défaut ; il me permet de voir ce qui n’est pas encore finalisé.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Template&amp;lt;&amp;#x2F;strong&amp;gt;, le dossier qui regroupe mes modèles.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;h3 id=&amp;quot;perso&amp;quot;&amp;gt;Perso&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;C’est le dossier qui a le plus de sous-dossier, bien trop chargé à mon goût, il hérite de mon époque Joplin. On y trouve des check-lists, des notes bibliographiques (citations, réflexions prises en lisant un livre), etc.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Aujourd’hui, deux sous-dossiers sont vraiment utilisés :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Journaux&amp;lt;&amp;#x2F;strong&amp;gt; : C’est là que vont mes notes quotidiennes. Notes personnelles sur ce que je fais,
+c’est un bon moyen de de souvenir d’où je suis allé, de quand est-ce que j’ai été malade (et avec quel
+traitement), de quand j’ai rencontré telle personne pour la dernière fois. Tout ce qui me semble important est noté dans une note quotidienne.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Pensine&amp;lt;&amp;#x2F;strong&amp;gt; : petite référence à &amp;lt;em&amp;gt;Harry Potter&amp;lt;&amp;#x2F;em&amp;gt;, ces notes sont toutes les idées, les notions que j’ai pu avoir spontanément, ou en lisant.
+Ce sont des notes qui suivent un peu les principes du &amp;lt;a rel=&amp;quot;noopener external&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.soenkeahrens.de&amp;#x2F;en&amp;#x2F;takesmartnotes&amp;quot;&amp;gt;Zettelkasten&amp;lt;&amp;#x2F;a&amp;gt;.
+Ces notes sont aussi &amp;lt;strong&amp;gt;atomiques&amp;lt;&amp;#x2F;strong&amp;gt; que possible : elles se concentrent sur &amp;lt;em&amp;gt;une seule idée&amp;lt;&amp;#x2F;em&amp;gt;, écrite de la façon la plus succincte possible : la force d’Obsidian, c’est d’être capable de faire des liens entre les notes. Pour que ces liens soient pertinents et compréhensibles, chaque note doit être bien ciblée.
+Cette section regroupe ce qu’on pourrait appeler&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+&amp;lt;h3 id=&amp;quot;index&amp;quot;&amp;gt;Index&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;Certaines notes sont des points d’entrés vers d’autres notes, par exemple, j’ai une notes &amp;lt;code&amp;gt;recettes de cuisine&amp;lt;&amp;#x2F;code&amp;gt;, qui liste et organise toutes les recettes que je peux avoir, permettant de m’y retrouver facilement.
+D’autres notes sont plus conceptuelles. Je les appelle parfois « &amp;lt;em&amp;gt;notes covalentes&amp;lt;&amp;#x2F;em&amp;gt; » car elles servent de liant entre d’autres notes (atomiques).
+Ce peut être des notions comme &amp;lt;code&amp;gt;logiciel libre&amp;lt;&amp;#x2F;code&amp;gt;, des personnes &amp;lt;code&amp;gt;John DOE&amp;lt;&amp;#x2F;code&amp;gt; ou des chose particulière &amp;lt;code&amp;gt;Ergo‑L&amp;lt;&amp;#x2F;code&amp;gt;, et elle me permettent ensuite de faire des recherches efficaces.
+Par exemple, à partir de &amp;lt;code&amp;gt;John DOE&amp;lt;&amp;#x2F;code&amp;gt;, je peux retrouver les réunions, événements, auxquels on a participé ensemble, où encore la liste des entreprise pour lesquelles il a travaillé, etc.
+Pour quelque-chose comme Ergo‑L, ça me permet de cible les moment dans l’année sur lesquelles je me suis concentré sur le sujet et de retrouver les jalons du projets.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Bref, ce sont des notes qui permettent de faire de l’archéologie.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h3 id=&amp;quot;ressources&amp;quot;&amp;gt;Ressources&amp;lt;&amp;#x2F;h3&amp;gt;
+&amp;lt;p&amp;gt;les rares pièces jointes accompagnant mes notes. J’essaie, autant que faire se peut, de rester sur du texte pur.
+Mais, de temps en temps, des images viennent se greffer…
+J’ai essayé plusieurs méthodes de classement pour ces &amp;lt;em&amp;gt;ressources&amp;lt;&amp;#x2F;em&amp;gt; : sous-dossiers, dossier unique, sans résultat concluant. Pour l’instant, un dossier centralisé fait l’affaire, il permet de réutiliser facilement une même ressource, mais s’éloigne du standard markdown et donc la compatibilité avec d’autres logiciels si jamais je viens à changer…&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;creation-d-une-nouvelle-note&amp;quot;&amp;gt;Création d’une nouvelle note&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Au début, habitude hérité d’à peu près tous les logiciels que j’ai créé, je faisais un &amp;lt;kbd&amp;gt;Ctrl&amp;lt;&amp;#x2F;kbd&amp;gt;+&amp;lt;kbd&amp;gt;n&amp;lt;&amp;#x2F;kbd&amp;gt; pour créer une nouvelle note.
+Ce n’est pas idéal, parcequ’on se retrouve souvent avec des notes orphelines, des notes qui ne sont liée à aucune autre, et qui sont donc plus difficile à retrouver et à “exploiter”.
+Une méthode qui me convient mieux et de toujours créer une notes depuis un autre notes en allant sur cette note et en tapant &amp;lt;code&amp;gt;[[Nouveau nom]]&amp;lt;&amp;#x2F;code&amp;gt;.
+Cette méthode fait que par défaut, on a &amp;lt;em&amp;gt;au moins&amp;lt;&amp;#x2F;em&amp;gt; une note liée à notre nouvelle note —souvent la note journal quotidienne.
+Ça permet au moins de capturer de contexte de la création ; et, cerise sur le gateau, avec cette méthode, il est possible d’utiliser des raccourcis clavier pour mettre un &amp;lt;em&amp;gt;timestamp&amp;lt;&amp;#x2F;em&amp;gt; dans une note par exemple, (&amp;lt;kbd&amp;gt;Alt&amp;lt;&amp;#x2F;kbd&amp;gt;+&amp;lt;kbd&amp;gt;d&amp;lt;&amp;#x2F;kbd&amp;gt; pour la date, format ISO, dans mon cas), ce que je fais systématiquement pour des réunion (&amp;lt;code&amp;gt;timestamp nomEtreprise nomContact&amp;lt;&amp;#x2F;code&amp;gt; ce qui permet de retrouver la note facilement à partir de la date, du contact principal ou de l’entreprise)&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;navigation&amp;quot;&amp;gt;Navigation&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;En passant d’un système hiérarchique (Joplin) à un système plus fluide, avec beaucoup, &amp;lt;em&amp;gt;beaucoup&amp;lt;&amp;#x2F;em&amp;gt; de notes dans un dossier, on pourrait croire que la navigation devient plus complexe.
+J’avais un peu peur de ne pas m’y retrouver au début…
+Mais enfait, c’est souvent &amp;lt;strong&amp;gt;plus simple&amp;lt;&amp;#x2F;strong&amp;gt;.
+Dans la majorité des cas, je connais (presque) le nom de la note que je veux ouvrir. Il me suffit donc d’un &amp;lt;kbd&amp;gt;Ctrl&amp;lt;&amp;#x2F;kbd&amp;gt;+&amp;lt;kbd&amp;gt;O&amp;lt;&amp;#x2F;kbd&amp;gt; et de commencer à taper pour que les notes pertinentes soient proposées.
+Parfois, c’est moins direct. Je me demande, par exemple :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;Comment s’appelle le contact principale chez XYZ déjà ?&amp;lt;&amp;#x2F;em&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;J’ouvre alors la note &amp;lt;code&amp;gt;XYZ&amp;lt;&amp;#x2F;code&amp;gt;, qui contient une section :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;markdown&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Contacts Affiliés&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);font-weight: bold;&amp;quot;&amp;gt;-----------------&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;```&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;dataview&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;LIST&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;FROM [[]] AND &amp;amp;quot;🗃️ Index&amp;#x2F;Personnes&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;```&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;  &amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+&amp;lt;p&amp;gt;ce qui donne :&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;markdown&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Contacts Affiliés&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#005CC5, #79B8FF);font-weight: bold;&amp;quot;&amp;gt;-----------------&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;-&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; John DOE&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;-&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; John DOEUX&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
+&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: light-dark(#E36209, #FFAB70);&amp;quot;&amp;gt;-&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt; John Trois&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+&amp;lt;p&amp;gt;Soit une liste de toutes les personnes liées à l’entreprise, listées par ordre alphabétique.
+Je n’ai plus qu’à suivre le lien… Facile !&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;De même, parfois, je ne sais plus exactement ce que je cherche (une citation dans un livre, une recette dont le nom m’échappe…). Je cherche alors le nom de la note-index associée (le livre ou la liste de recettes), et je retrouve facilement ce que je cherchais.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;C’est redoutablement efficace, à condition d’avoir des notes-index comme repères thématiques dès qu’on commence à accumuler un peu de contenu sur le thème en question.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Finalement, je ne suis &amp;lt;strong&amp;gt;pas du tout gêné&amp;lt;&amp;#x2F;strong&amp;gt; d’avoir « trop de notes dans un dossier ».
+Le fait de ne plus avoir une structure, à penser, à maintenir me fait gagner du temps : pas besoin de me demander &amp;lt;em&amp;gt;où&amp;lt;&amp;#x2F;em&amp;gt; une note devrait aller, et changer ma façon de classier de temps en temps.
+C’est cohérent dès le départ et ça le reste.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;video autoplay loop muted=&amp;quot;true&amp;quot;  
+    class=&amp;quot;gif&amp;quot;&amp;gt;
+    &amp;lt;source src=&amp;quot;chefs-kiss-french-chef.mp4&amp;quot; type=&amp;quot;video&amp;#x2F;mp4&amp;quot;&amp;gt;
+    Your browser does not support the video tag.
+&amp;lt;&amp;#x2F;video&amp;gt;&amp;lt;h2 id=&amp;quot;meta-organisation&amp;quot;&amp;gt;Méta-organisation&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;À l’époque Joplin, j’utilisais les &amp;lt;em&amp;gt;tags&amp;lt;&amp;#x2F;em&amp;gt; pour relier des notes autour d’une thématique.
+En réalité, je ne m’en servais pas beaucoup, mais ça me semblait la « bonne pratique ».
+En passant sur Obsidian, je me suis peu à peu rendu compte que créer des notes dédiées était plus puissant.
+Non seulement l’interface y pousse, mais c’est aussi bien plus &amp;lt;em&amp;gt;flexible&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Par exemple, remplacer le tag &amp;lt;code&amp;gt;#première_fois_fiston&amp;lt;&amp;#x2F;code&amp;gt; par une note &amp;lt;code&amp;gt;première fois fiston&amp;lt;&amp;#x2F;code&amp;gt; me permet ensuite d’utiliser &amp;lt;em&amp;gt;dataview&amp;lt;&amp;#x2F;em&amp;gt; pour lister toutes les notes (quotidiennes ou autres) où cette notion apparaît —par ordre chronologique.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’ai donc complètement arrêté d’utiliser les tags… jusqu’à ce que je leur trouve &amp;lt;em&amp;gt;une autre utilité&amp;lt;&amp;#x2F;em&amp;gt; : &amp;lt;em&amp;gt;l’automatisation&amp;lt;&amp;#x2F;em&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;J’en avais assez de devoir insérer manuellement certains modèles, comme les vues &amp;lt;code&amp;gt;contact affilié&amp;lt;&amp;#x2F;code&amp;gt; pour une entreprise. J’ai donc écrit un petit script Python pour ajouter ces éléments automatiquement.
+Très vite, ce script s’est enrichi : aujourd’hui, il ajoute automatiquement les données &amp;lt;code&amp;gt;vCard&amp;lt;&amp;#x2F;code&amp;gt; de mes contacts Nextcloud dans les notes de contacts.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Naturellement, quand je travaille sur ces scripts, je veux souvent cibler un &amp;lt;strong&amp;gt;type&amp;lt;&amp;#x2F;strong&amp;gt; de note : réunions, personnes, notes quotidiennes, etc.
+J’avais pensé utiliser les dossiers, mais ce n’était pas assez précis : mon dosser de notes quotidienne par exemple regroupe &amp;lt;em&amp;gt;principalement&amp;lt;&amp;#x2F;em&amp;gt; ces notes, mais aussi des points ponctuels notés à part pour être relié à autre chose et réutilisé sans avoir à lire toute la note du jour.
+Et c’est pareil pour chaque dossier, on y trouve toujours au moins une note qui n’a pas meilleur endroit où aller mais qui n’est pas exactement du même type que les autres.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;C’est là que les &amp;lt;em&amp;gt;tags&amp;lt;&amp;#x2F;em&amp;gt; se sont de nouveaux manifestés et imposés comme solution : pour &amp;lt;strong&amp;gt;spécifier le(s) type(s)&amp;lt;&amp;#x2F;strong&amp;gt; de la note.
+Dans ce cas, les tags &amp;lt;em&amp;gt;dans les métadonnées&amp;lt;&amp;#x2F;em&amp;gt; (YAML frontmatter) sont plus adaptés que les tags &amp;lt;em&amp;gt;inline&amp;lt;&amp;#x2F;em&amp;gt;, car ils décrivent la nature de la note elle-même, pas son contenu.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h2 id=&amp;quot;conclusion&amp;quot;&amp;gt;Conclusion&amp;lt;&amp;#x2F;h2&amp;gt;
+&amp;lt;p&amp;gt;Depuis que j’utilise Obsidian pour tout, avec l’intégration des &amp;lt;em&amp;gt;vim-motions&amp;lt;&amp;#x2F;em&amp;gt;, prendre des notes est devenu un plaisir.
+Je &amp;lt;em&amp;gt;veux&amp;lt;&amp;#x2F;em&amp;gt; que mon système soit cohérent, que mes notes soient bien liées entre elles, car cela renforce leur utilité et leur accessibilité.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je me suis aussi rendu compte qu’écrire mes pensées — ce que le moi d’il y a dix ans aurait jugé chronophage et inutile — m’aide à mieux structurer ma réflexion.
+Combien de fois ai-je évité des erreurs ou du travail superflu en me posant les bonnes questions ? Beaucoup. Et de plus en plus.
+Ces questions ne sont apparues que grâce à l’écriture… et à la relecture, à la réécriture.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Je ne peux donc que vous conseiller une chose :
+écrivez plus —et si Obsidian vous permet d’en tirer du plaisir, ne vous en privez pas.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>Capitol du Libre 2024 – Kalamine : Créer la disposition clavier de vos rêves en un claquement de doigt</title>
+                <link href="https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;cdl-2024&#x2F;"/>
+                <updated>2024-11-16T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;ced-c.github.io&#x2F;blog&#x2F;cdl-2024&#x2F;</id>
+                <content type="html">&amp;lt;p&amp;gt;Je mets rétroactivement le lien vers &amp;lt;a href=&amp;quot;&amp;#x2F;2024_CdL&amp;#x2F;&amp;quot;&amp;gt;les planches de ma présentation au CdL 2024&amp;lt;&amp;#x2F;a&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+    
+</feed>
