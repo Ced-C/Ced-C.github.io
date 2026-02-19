@@ -8,6 +8,7 @@ tags = ["FOSS", "zola", "tuto", "documentation"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "116097404321113580"
 +++
 
 Un blog sert à publier, mais aussi à échanger.
@@ -16,7 +17,7 @@ J’utilise un site statique pour sa simplicité et sa robustesse, hébergé sur
 Par défaut, je propose de me contacter via le Fédiverse, par exemple sur Mastodon. Je republiais parfois mes billets sur mon compte, et le fil de discussion servait alors de section de commentaires.
 Je me suis demandé s’il était possible d’afficher directement ces discussions sous mes articles, sans transformer mon site en application dynamique.
 
-En parcourant le blog de [Hyde](https://lazybea.rs/), notamment via sa série Under/Over et l’intervention de [Ploum](https://mamot.fr/@ploum), j’ai vu son intégration inspirée d’[un article de Carl Schwan][cs], j’y ai trouvé une solution simple : charger les commentaires depuis l’API Mastodon côté client. J’ai adapté cette approche à Zola[zola].
+En parcourant le blog de [Hyde](https://lazybea.rs/), notamment via sa série Under/Over et l’intervention de [Ploum](https://mamot.fr/@ploum), j’ai vu son intégration inspirée d’[un article de Carl Schwan][cs], j’y ai trouvé une solution simple : charger les commentaires depuis l’API Mastodon côté client. J’ai adapté cette approche à [zola].
 
 
 Le principe
