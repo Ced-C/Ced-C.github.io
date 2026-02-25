@@ -8,6 +8,7 @@ tags = ["clavier", "linux"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "116131998529764726"
 +++
 
 Je suis tombé dans le terrier de lapin de l’ergonomie clavier en 2023.  

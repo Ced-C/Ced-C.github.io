@@ -25,9 +25,9 @@ Mes deux Centimes
 
 Bienvenue sur mon petit morceau du web.
 
-Bidouilleur étenel, Ergonaute de la 1e heures et Geek avant que ce soit à la mode,
-je partage quelques notes personnelles sur des sujets autours de l’informatique,
-les logiciels libres, l’open-hardware et l’ergonomie clavier.
+Bidouilleur éternel, Ergonaute de la 1<sup>e</sup> heure et geek avant que ce soit à la mode,
+je partage ici quelques notes personnelles sur l’informatique,
+les logiciels libres, l’open hardware et l’ergonomie clavier.
 
 👈 Vous pouvez me contacter sur masto
 
@@ -36,7 +36,10 @@ les logiciels libres, l’open-hardware et l’ergonomie clavier.
   </div>
 </div>
 
-Je conseil la lecture en thème sombre n’ayant pas encore eu le temps de paufiner le thème clair. 
+Vous pouvez suivre le blog via le [flux RSS/Atom](atom.xml) ou sur Masto où j’essaie de ne pas oublier de publier mes billets. 
+
+
+Je conseille la lecture en thème sombre, le thème clair n’étant pas encore finalisé.
 
 Derniers Billets
 ---
