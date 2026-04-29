@@ -8,6 +8,7 @@ tags = ["lecture", "FOSS", "tuto", "epub", "DRM"]
 toc = false
 display_published = true 
 author = "Cætera"
+comment_id = "116489975383452430"
 +++
 
 
