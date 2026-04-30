@@ -33,7 +33,7 @@ Au début, je ne m’en servais que pour mes voyages ; j’avais donc systéma
 
 Puis, j’ai appris à apprécier la liseuse. Beaucoup. 
 
-C’était non seulement pratique de voyager léger, mais c’est également une lecture un peu différente. Je lis souvent en VO, il est facile de lire dans d’autres langues et de regarder la signification d’un mot grâce aux dictionnaires installés. C’est aussi simple de prendre une note pour revenir sur un passage plus tard —notamment une fois le livre terminé— que ce soit pour relire un passage marquant ou pour prendre une note pour mon [deuxième cerveau](@/blog/organiser-sa-vie-avec-md/index.html). 
+C’était non seulement pratique de voyager léger, mais c’est également une lecture un peu différente. Je lis souvent en VO, il est facile de lire dans d’autres langues et de regarder la signification d’un mot grâce aux dictionnaires installés. C’est aussi simple de prendre une note pour revenir sur un passage plus tard —notamment une fois le livre terminé— que ce soit pour relire un passage marquant ou pour prendre une note pour mon [deuxième cerveau][obsidian]. 
 
 J’ai continué mon expérimentation avec la liseuse avec les classiques. Ils avaient l’avantage d’être dans le domaine public et donc d’être facilement trouvable légalement. 
 J’achetais toujours les autres livres en physique. Et puis, à force, j’ai commencé à me dire que c’était dommage de participer à l’élagage des arbres alors que j’avais _déjà_ une liseuse qui ne demandait qu’à servir davantage… C’est là que les problèmes ont commencé. 
@@ -111,3 +111,4 @@ Mais là je n’ai plus l’énergie, je vais lire un peu avant d’aller me cou
 [DeACSM]: https://github.com/Leseratte10/acsm-calibre-plugin
 [DeDRM]: https://github.com/noDRM/DeDRM_tools
 [editeur]: https://editions.critic.fr/
+[obsidian]: @/blog/organiser-sa-vie-avec-md/index.md
