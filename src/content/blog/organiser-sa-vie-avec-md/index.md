@@ -128,7 +128,7 @@ Finalement, je ne suis **pas du tout gêné** d’avoir « trop de notes dans 
 Le fait de ne plus avoir une structure, à penser, à maintenir me fait gagner du temps : pas besoin de me demander _où_ une note devrait aller, et changer ma façon de classier de temps en temps.
 C’est cohérent dès le départ et ça le reste.
  
-{{gif(path="chefs-kiss-french-chef.mp4")}}
+{{gif(path="/img/chefs-kiss-french-chef.mp4")}}
 
 Méta-organisation
 ---
