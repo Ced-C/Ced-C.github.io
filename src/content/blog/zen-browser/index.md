@@ -3,7 +3,7 @@ title = "Zen Browser : Ce que Firefox aurait dû devenir"
 date = 2025-08-15
 draft = false
 [taxonomies]
-tags = ["libre", "firefox", "software"]
+tags = ["firefox", "FOSS", "zen"]
 [extra]
 toc = false
 display_published = true 
