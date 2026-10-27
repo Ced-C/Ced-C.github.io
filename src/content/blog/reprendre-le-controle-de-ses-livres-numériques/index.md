@@ -3,7 +3,7 @@ title = "Reprendre le contrôle de ses livres numériques sous Linux"
 date = 2026-04-29
 draft = false
 [taxonomies]
-tags = ["lecture", "FOSS", "tuto", "epub", "DRM"]
+tags = ["lecture", "FOSS", "tuto", "epub", "DRM", "fécalisme"]
 [extra]
 toc = false
 display_published = true 
