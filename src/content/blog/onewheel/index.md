@@ -79,7 +79,7 @@ Un plaisir décuplé, en somme, avec l’assurance d’avoir prolongé la vie de
 
 La modification a tout de même un petit bémol : la batterie se vide plus vite lorsque la planche est éteinte. Je suis parti un an à l’étranger en laissant la planche au placard. À mon retour, elle était extrêmement déchargée — les cellules au lithium étaient à 2,3 V ! C’était dangereux de tester la planche ; je l’ai fait progressivement, avec toutes les protections et précautions nécessaires. Mais j’ai toujours un doute sur l’impact de cette décharge sur la batterie.
 
-Après cet incident et plus de 1 500 km parcourus depuis, la batterie est moins _punchy_. Est-ce dû à cette décharge ou aux composants ? Je ne saurais le dire. Le fait est qu’après plus de 3 500 km, 175 cycles et cinq ans de vie, cette usure me semble un peu prématurée.
+Après cet incident et plus de 1 500 km parcourus depuis, la batterie est moins _punchy_. Est-ce dû à cette décharge ou aux composants ? Je ne saurais le dire. Le fait est qu’après plus de 3 000 km, 175 cycles et cinq ans de vie, cette usure me semble un peu prématurée.
 
 Un nouveau pneu, une nouvelle planche
 ---
